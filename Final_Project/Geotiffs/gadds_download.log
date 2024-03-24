@@ -1,0 +1,854 @@
+gadds_download 12919: Writing debug output to log file /mnt/efs/gadds/GADDSDownload/86ab1690-e204-11ee-890e-8301f339c236/gadds_download.log
+gadds_download 12919: Querying http://localhost:8000/gaddsDownload/86ab1690-e204-11ee-890e-8301f339c236
+urllib3.connectionpool 12919: Starting new HTTP connection (1): localhost:8000
+urllib3.connectionpool 12919: http://localhost:8000 "GET /gaddsDownload/86ab1690-e204-11ee-890e-8301f339c236 HTTP/1.1" 200 16708
+gadds_download 12919: gadds_download_params = {'crs': 'GDA94',
+ 'datasets': [{'clipping': True,
+               'datasetId': 'http://dapds00.nci.org.au/thredds/fileServer/iv65/Geoscience_Australia_Geophysics_Reference_Data_Collection/national_geophysical_compilations/Magmap2019/Magmap2019-grid-tmi_rtp_1vd-AWAGS_MAG_2019.nc',
+               'datasetName': 'Magnetic Anomaly Map of Australia, Seventh '
+                              'Edition, 2020 - Enhanced Products Package - TMI '
+                              'RTP 1VD grid (AWAGS)',
+               'datasetType': 'grid',
+               'geophysicalMethod': 'magnetic',
+               'nationalDataset': 'Y',
+               'state': None,
+               'stride': 1,
+               'variables': None},
+              {'clipping': True,
+               'datasetId': 'http://dapds00.nci.org.au/thredds/fileServer/iv65/Geoscience_Australia_Geophysics_Reference_Data_Collection/national_geophysical_compilations/Magmap2019/Magmap2019-grid-tmi_rtp-AWAGS_MAG_2019.nc',
+               'datasetName': 'Total Magnetic Intensity (TMI) Grid of '
+                              'Australia 2019 - 7th edition, Variable '
+                              'Reduction to Pole (VRTP)',
+               'datasetType': 'grid',
+               'geophysicalMethod': 'magnetic',
+               'nationalDataset': 'Y',
+               'state': None,
+               'stride': 1,
+               'variables': None},
+              {'clipping': True,
+               'datasetId': 'http://dapds00.nci.org.au/thredds/fileServer/iv65/Geoscience_Australia_Geophysics_Reference_Data_Collection/national_geophysical_compilations/Magmap2019/Magmap2019-grid-tmi-Cellsize40m-AWAGS_MAG_2019.nc',
+               'datasetName': 'Total Magnetic Intensity (TMI) Grid of '
+                              'Australia 2019 - 7th edition, 40 m cell size',
+               'datasetType': 'grid',
+               'geophysicalMethod': 'magnetic',
+               'nationalDataset': 'Y',
+               'state': None,
+               'stride': 1,
+               'variables': None},
+              {'clipping': True,
+               'datasetId': 'http://dapds00.nci.org.au/thredds/fileServer/iv65/Geoscience_Australia_Geophysics_Reference_Data_Collection/national_geophysical_compilations/Radmap2019/Radmap2019-grid-th_conc-Filtered-AWAGS_RAD_2019.nc',
+               'datasetName': 'Radiometric Grid of Australia (Radmap) v4 2019, '
+                              'filtered ppm thorium',
+               'datasetType': 'grid',
+               'geophysicalMethod': 'radiometric',
+               'nationalDataset': 'Y',
+               'state': None,
+               'stride': 1,
+               'variables': None},
+              {'clipping': True,
+               'datasetId': 'http://dapds00.nci.org.au/thredds/fileServer/iv65/Geoscience_Australia_Geophysics_Reference_Data_Collection/national_geophysical_compilations/Radmap2019/Radmap2019-grid-k_conc-Filtered-AWAGS_RAD_2019.nc',
+               'datasetName': 'Radiometric Grid of Australia (Radmap) v4 2019, '
+                              'filtered pct potassium grid',
+               'datasetType': 'grid',
+               'geophysicalMethod': 'radiometric',
+               'nationalDataset': 'Y',
+               'state': None,
+               'stride': 1,
+               'variables': None},
+              {'clipping': True,
+               'datasetId': 'http://dapds00.nci.org.au/thredds/fileServer/iv65/Geoscience_Australia_Geophysics_Reference_Data_Collection/national_geophysical_compilations/Radmap2019/Radmap2019-grid-u_conc-Filtered-AWAGS_RAD_2019.nc',
+               'datasetName': 'Radiometric Grid of Australia (Radmap) v4 2019, '
+                              'filtered ppm uranium',
+               'datasetType': 'grid',
+               'geophysicalMethod': 'radiometric',
+               'nationalDataset': 'Y',
+               'state': None,
+               'stride': 1,
+               'variables': None},
+              {'clipping': True,
+               'datasetId': 'http://dapds00.nci.org.au/thredds/fileServer/iv65/Geoscience_Australia_Geophysics_Reference_Data_Collection/national_geophysical_compilations/Gravmap2019/Gravmap2019-grid-grv_cscba-IncludesAirborne.nc',
+               'datasetName': 'National Gravity Compilation 2019 includes '
+                              'airborne (CSCBA)',
+               'datasetType': 'grid',
+               'geophysicalMethod': 'gravity',
+               'nationalDataset': 'Y',
+               'state': None,
+               'stride': 1,
+               'variables': None}],
+ 'emailAddress': 'asua0002@student.monash.edu',
+ 'endDateTime': None,
+ 'errorMessage': None,
+ 'extent': {'geometry': {'coordinates': [[[147.59473017796742,
+                                           -34.681782642372625],
+                                          [149.76581092595703,
+                                           -34.681782642372625],
+                                          [149.76581092595703,
+                                           -32.79031259887355],
+                                          [147.59473017796742,
+                                           -32.79031259887355],
+                                          [147.59473017796742,
+                                           -34.681782642372625]]],
+                         'crs': 'EPSG:4283',
+                         'type': 'Polygon'},
+            'type': 'Feature'},
+ 'formats': {'grid': 'GTiff', 'line': 'ASEG-GDF2', 'point': 'ASEG-GDF2'},
+ 'gridResampling': 'bilinear',
+ 'gridResolution': 0.0,
+ 'personaTitle': 'Geophysical Archive Data Delivery System',
+ 'portalReload': '{"bounds":{"datumProjection":"EPSG:3857","displayProjection":"EPSG:4326","minLongitude":147.59473017796742,"minLatitude":-32.79031259887355,"maxLongitude":149.76581092595703,"maxLatitude":-34.681782642372625},"coordinateBounds":{"coordinatesEpsg3857":[[16430170.207181942,-4120720.324579413],[16671853.810519224,-4120720.324579413],[16671853.810519224,-3867504.4279334154],[16430170.207181942,-3867504.4279334154],[16430170.207181942,-4120720.324579413]],"coordinatesEpsg4326":[[147.59473017796742,-34.681782642372625],[149.76581092595703,-34.681782642372625],[149.76581092595703,-32.79031259887355],[147.59473017796742,-32.79031259887355],[147.59473017796742,-34.681782642372625]],"feature":{"disposed":false,"pendingRemovals_":{},"dispatching_":{},"listeners_":{"change:Square":[null],"change":[null],"propertychange":[null]},"revision_":81,"ol_uid":"409","values_":{"Square":{"disposed":false,"pendingRemovals_":{},"dispatching_":{},"listeners_":{"change":[null,null]},"revision_":78,"ol_uid":"408","values_":null,"extent_":[16430170.207181942,-4120720.324579413,16671853.810519224,-3867504.4279334154],"extentRevision_":78,"simplifiedGeometryMaxMinSquaredTolerance":12683992.874329822,"simplifiedGeometryRevision":78,"layout":"XY","stride":2,"flatCoordinates":[16430170.207181942,-4120720.324579413,16671853.810519224,-4120720.324579413,16671853.810519224,-3867504.4279334154,16430170.207181942,-3867504.4279334154,16430170.207181942,-4120720.324579413],"ends_":[10],"flatInteriorPointRevision_":-1,"flatInteriorPoint_":null,"maxDelta_":-1,"maxDeltaRevision_":-1,"orientedRevision_":78,"orientedFlatCoordinates_":[16430170.207181942,-4120720.324579413,16430170.207181942,-3867504.4279334154,16671853.810519224,-3867504.4279334154,16671853.810519224,-4120720.324579413,16430170.207181942,-4120720.324579413]}},"geometryName_":"Square","style_":{"geometry_":null,"fill_":{"color_":[255,255,255,0.5]},"image_":null,"renderer_":null,"hitDetectionRenderer_":null,"stroke_":{"color_":[0,153,255,0.75],"lineDash_":null,"width_":3},"text_":null},"geometryChangeKey_":{"target":{"disposed":false,"pendingRemovals_":{},"dispatching_":{},"listeners_":{"change":[null,null]},"revision_":78,"ol_uid":"408","values_":null,"extent_":[16430170.207181942,-4120720.324579413,16671853.810519224,-3867504.4279334154],"extentRevision_":78,"simplifiedGeometryMaxMinSquaredTolerance":12683992.874329822,"simplifiedGeometryRevision":78,"layout":"XY","stride":2,"flatCoordinates":[16430170.207181942,-4120720.324579413,16671853.810519224,-4120720.324579413,16671853.810519224,-3867504.4279334154,16430170.207181942,-3867504.4279334154,16430170.207181942,-4120720.324579413],"ends_":[10],"flatInteriorPointRevision_":-1,"flatInteriorPoint_":null,"maxDelta_":-1,"maxDeltaRevision_":-1,"orientedRevision_":78,"orientedFlatCoordinates_":[16430170.207181942,-4120720.324579413,16430170.207181942,-3867504.4279334154,16671853.810519224,-3867504.4279334154,16671853.810519224,-4120720.324579413,16430170.207181942,-4120720.324579413]},"type":"change"}},"layerId":"gadds","extent":[147.59473017796742,-34.681782642372625,149.76581092595703,-32.79031259887355],"drawType":"Box"},"drawType":"Draw '
+                 'Extent","drawFeature":{"coordinatesEpsg3857":[[16430170.207181942,-4120720.324579413],[16671853.810519224,-4120720.324579413],[16671853.810519224,-3867504.4279334154],[16430170.207181942,-3867504.4279334154],[16430170.207181942,-4120720.324579413]],"coordinatesEpsg4326":[[147.59473017796742,-34.681782642372625],[149.76581092595703,-34.681782642372625],[149.76581092595703,-32.79031259887355],[147.59473017796742,-32.79031259887355],[147.59473017796742,-34.681782642372625]],"feature":{"disposed":false,"pendingRemovals_":{},"dispatching_":{},"listeners_":{"change:Square":[null],"change":[null],"propertychange":[null]},"revision_":81,"ol_uid":"409","values_":{"Square":{"disposed":false,"pendingRemovals_":{},"dispatching_":{},"listeners_":{"change":[null,null]},"revision_":78,"ol_uid":"408","values_":null,"extent_":[16430170.207181942,-4120720.324579413,16671853.810519224,-3867504.4279334154],"extentRevision_":78,"simplifiedGeometryMaxMinSquaredTolerance":12683992.874329822,"simplifiedGeometryRevision":78,"layout":"XY","stride":2,"flatCoordinates":[16430170.207181942,-4120720.324579413,16671853.810519224,-4120720.324579413,16671853.810519224,-3867504.4279334154,16430170.207181942,-3867504.4279334154,16430170.207181942,-4120720.324579413],"ends_":[10],"flatInteriorPointRevision_":-1,"flatInteriorPoint_":null,"maxDelta_":-1,"maxDeltaRevision_":-1,"orientedRevision_":78,"orientedFlatCoordinates_":[16430170.207181942,-4120720.324579413,16430170.207181942,-3867504.4279334154,16671853.810519224,-3867504.4279334154,16671853.810519224,-4120720.324579413,16430170.207181942,-4120720.324579413]}},"geometryName_":"Square","style_":{"geometry_":null,"fill_":{"color_":[255,255,255,0.5]},"image_":null,"renderer_":null,"hitDetectionRenderer_":null,"stroke_":{"color_":[0,153,255,0.75],"lineDash_":null,"width_":3},"text_":null},"geometryChangeKey_":{"target":{"disposed":false,"pendingRemovals_":{},"dispatching_":{},"listeners_":{"change":[null,null]},"revision_":78,"ol_uid":"408","values_":null,"extent_":[16430170.207181942,-4120720.324579413,16671853.810519224,-3867504.4279334154],"extentRevision_":78,"simplifiedGeometryMaxMinSquaredTolerance":12683992.874329822,"simplifiedGeometryRevision":78,"layout":"XY","stride":2,"flatCoordinates":[16430170.207181942,-4120720.324579413,16671853.810519224,-4120720.324579413,16671853.810519224,-3867504.4279334154,16430170.207181942,-3867504.4279334154,16430170.207181942,-4120720.324579413],"ends_":[10],"flatInteriorPointRevision_":-1,"flatInteriorPoint_":null,"maxDelta_":-1,"maxDeltaRevision_":-1,"orientedRevision_":78,"orientedFlatCoordinates_":[16430170.207181942,-4120720.324579413,16430170.207181942,-3867504.4279334154,16671853.810519224,-3867504.4279334154,16671853.810519224,-4120720.324579413,16430170.207181942,-4120720.324579413]},"type":"change"}},"layerId":"gadds","extent":[147.59473017796742,-34.681782642372625,149.76581092595703,-32.79031259887355],"drawType":"Box"},"drawShapeType":"Box","gridDataFormat":{"id":"GTiff","name":"GeoTiff"},"lineDataFormat":{"id":"ASEG-GDF2","name":"ASEG-GDF2"},"pointDataFormat":{"id":"ASEG-GDF2","name":"ASEG-GDF2"},"projection":{"id":"GDA94","name":"EPSG:4283 '
+                 '- '
+                 'GDA94"},"resamplingMethod":{"id":"bilinear","name":"Bilinear"},"resolution":null,"emailAddress":"asua0002@student.monash.edu","geophysicalMethod":["gravity","magnetic","radiometric"],"datasetType":["grid"],"surveyType":null,"selectedCompilationOption":"National '
+                 'Compilations '
+                 'Only","selectedMapSheet":null,"selectedState":null,"surveyId":{"name":"Survey '
+                 'ID:","selected":false,"visible":true,"value":""},"surveyName":{"name":"Survey '
+                 'Name:","selected":false,"visible":true,"value":""},"filtersGroup":{"title":"Primary '
+                 'Filters","collapsed":false,"dateRange":{"name":"Survey Date '
+                 'Range:","selected":true,"minValue":1900,"maxValue":2024,"surveyFrom":1900,"surveyTo":2024},"nationalCompilation":{"name":"National '
+                 'Compilation '
+                 'Only:","selected":false}},"optionalLayersGroup":{"title":"Optional '
+                 'Layers","collapsed":true,"GeophysicalSurveyDataset":{"name":"Geophysical '
+                 'Survey Datasets - Airborne Electromagnetic '
+                 '(AEM)","uuid":"7da66776-1968-49f6-a7dc-01ce040b7813"}},"optionalFiltersGroup":{"title":"Optional '
+                 'Filters","collapsed":true,"dataThemeSubType":{"name":"Data '
+                 'Theme '
+                 'Sub-Type:","selected":false,"visible":true,"dataThemeSubTypeValues":[]},"onOffShore":{"name":"Onshore/Offshore:","onOffShoreValues":[],"selected":false},"gridCellSize":{"name":"Grid '
+                 'Cell '
+                 'Size:","selected":false,"visible":true,"selectedMinValue":0,"selectedMaxValue":500},"surveyType":{"name":"Survey '
+                 'Type:","selected":false,"surveyTypeValues":[]},"platformType":{"name":"Platform '
+                 'Type:","selected":false,"platformTypeValues":[]},"lineSpacing":{"name":"Line '
+                 'Spacing:","selected":false,"visible":true,"minValue":0,"maxValue":2000,"selectedMaxValue":500,"selectedMinValue":1000},"stationSpacing":{"name":"Station '
+                 'Spacing:","selected":false,"visible":true,"minValue":0,"maxValue":4000,"selectedMinValue":500,"selectedMaxValue":1000},"flightHeight":{"name":"Flight '
+                 'Height:","selected":false,"visible":true,"minValue":0,"maxValue":2000,"selectedValue":500},"gravityLayout":{"name":"Gravity '
+                 'Layout:","selected":false,"visible":true,"gravityLayoutValues":[]},"legislation":{"name":"Legislation:","selected":false,"visible":true,"legislationValues":[]},"processor":{"name":"Processor:","selected":false,"visible":true,"processorValues":[]},"contractor":{"name":"Contractor:","selected":false,"visible":true,"contractorValues":[]},"operator":{"name":"Operator:","selected":false,"visible":true,"operatorValues":[]},"owner":{"name":"Owner:","selected":false,"visible":true,"ownerValues":[]},"client":{"name":"Client:","selected":false,"visible":true,"clientValues":[]}},"datasets":[{"id":"http://dapds00.nci.org.au/thredds/fileServer/iv65/Geoscience_Australia_Geophysics_Reference_Data_Collection/national_geophysical_compilations/Magmap2019/Magmap2019-grid-tmi_rtp_1vd-AWAGS_MAG_2019.nc","name":"Magnetic '
+                 'Anomaly Map of Australia, Seventh Edition, 2020 - Enhanced '
+                 'Products Package - TMI RTP 1VD grid '
+                 '(AWAGS)","datasetType":"grid","geophysicalMethod":"magnetic","nationalDataset":"Y","state":null,"clipping":true},{"id":"http://dapds00.nci.org.au/thredds/fileServer/iv65/Geoscience_Australia_Geophysics_Reference_Data_Collection/national_geophysical_compilations/Magmap2019/Magmap2019-grid-tmi_rtp-AWAGS_MAG_2019.nc","name":"Total '
+                 'Magnetic Intensity (TMI) Grid of Australia 2019 - 7th '
+                 'edition, Variable Reduction to Pole '
+                 '(VRTP)","datasetType":"grid","geophysicalMethod":"magnetic","nationalDataset":"Y","state":null,"clipping":true},{"id":"http://dapds00.nci.org.au/thredds/fileServer/iv65/Geoscience_Australia_Geophysics_Reference_Data_Collection/national_geophysical_compilations/Magmap2019/Magmap2019-grid-tmi-Cellsize40m-AWAGS_MAG_2019.nc","name":"Total '
+                 'Magnetic Intensity (TMI) Grid of Australia 2019 - 7th '
+                 'edition, 40 m cell '
+                 'size","datasetType":"grid","geophysicalMethod":"magnetic","nationalDataset":"Y","state":null,"clipping":true},{"id":"http://dapds00.nci.org.au/thredds/fileServer/iv65/Geoscience_Australia_Geophysics_Reference_Data_Collection/national_geophysical_compilations/Radmap2019/Radmap2019-grid-th_conc-Filtered-AWAGS_RAD_2019.nc","name":"Radiometric '
+                 'Grid of Australia (Radmap) v4 2019, filtered ppm '
+                 'thorium","datasetType":"grid","geophysicalMethod":"radiometric","nationalDataset":"Y","state":null,"clipping":true},{"id":"http://dapds00.nci.org.au/thredds/fileServer/iv65/Geoscience_Australia_Geophysics_Reference_Data_Collection/national_geophysical_compilations/Radmap2019/Radmap2019-grid-k_conc-Filtered-AWAGS_RAD_2019.nc","name":"Radiometric '
+                 'Grid of Australia (Radmap) v4 2019, filtered pct potassium '
+                 'grid","datasetType":"grid","geophysicalMethod":"radiometric","nationalDataset":"Y","state":null,"clipping":true},{"id":"http://dapds00.nci.org.au/thredds/fileServer/iv65/Geoscience_Australia_Geophysics_Reference_Data_Collection/national_geophysical_compilations/Radmap2019/Radmap2019-grid-u_conc-Filtered-AWAGS_RAD_2019.nc","name":"Radiometric '
+                 'Grid of Australia (Radmap) v4 2019, filtered ppm '
+                 'uranium","datasetType":"grid","geophysicalMethod":"radiometric","nationalDataset":"Y","state":null,"clipping":true},{"id":"http://dapds00.nci.org.au/thredds/fileServer/iv65/Geoscience_Australia_Geophysics_Reference_Data_Collection/national_geophysical_compilations/Gravmap2019/Gravmap2019-grid-grv_cscba-IncludesAirborne.nc","name":"National '
+                 'Gravity Compilation 2019 includes airborne '
+                 '(CSCBA)","datasetType":"grid","geophysicalMethod":"gravity","nationalDataset":"Y","state":null,"clipping":true}],"personaTitle":"Geophysical '
+                 'Archive Data Delivery System"}',
+ 'requestId': '86ab1690-e204-11ee-890e-8301f339c236',
+ 'startDateTime': None,
+ 'status': 'Pending',
+ 'submitDateTime': '2024-03-15T00:12:36.519987',
+ 'zipFileLocation': None,
+ 'zipFileSize': None}
+gadds_download 12919: self._extent = POLYGON ((147.5947301779674 -34.68178264237262, 149.765810925957 -34.68178264237262, 149.765810925957 -32.79031259887355, 147.5947301779674 -32.79031259887355, 147.5947301779674 -34.68178264237262))
+urllib3.connectionpool 12919: Starting new HTTP connection (1): localhost:8000
+urllib3.connectionpool 12919: http://localhost:8000 "PUT /gaddsDownload/86ab1690-e204-11ee-890e-8301f339c236 HTTP/1.1" 202 16732
+gadds_download 12919: GADDSDownload constructor end elapsed time: 0:00:00
+gadds_download 12919: process_datasets start elapsed time: 0:00:00
+gadds_download 12919: Creating zip file /mnt/efs/gadds/GADDSDownload/86ab1690-e204-11ee-890e-8301f339c236/86ab1690-e204-11ee-890e-8301f339c236.zip.
+gadds_download 12919: cache_dataset start elapsed time: 0:00:00
+gadds_download 12919: Setting status to Uploading
+urllib3.connectionpool 12919: Starting new HTTP connection (1): localhost:8000
+urllib3.connectionpool 12919: http://localhost:8000 "PUT /gaddsDownload/86ab1690-e204-11ee-890e-8301f339c236 HTTP/1.1" 202 16734
+gadds_download 12919: Found cached netCDF file /mnt/efs/gadds/GADDSDownload/netcdf_cache/dapds00.nci.org.au/thredds/fileServer/iv65/Geoscience_Australia_Geophysics_Reference_Data_Collection/national_geophysical_compilations/Magmap2019/Magmap2019-grid-tmi_rtp_1vd-AWAGS_MAG_2019.nc in local cache
+gadds_download 12919: Verified complete netCDF file /mnt/efs/gadds/GADDSDownload/netcdf_cache/dapds00.nci.org.au/thredds/fileServer/iv65/Geoscience_Australia_Geophysics_Reference_Data_Collection/national_geophysical_compilations/Magmap2019/Magmap2019-grid-tmi_rtp_1vd-AWAGS_MAG_2019.nc in cache
+gadds_download 12919: Setting status to Subsetting
+urllib3.connectionpool 12919: Starting new HTTP connection (1): localhost:8000
+urllib3.connectionpool 12919: http://localhost:8000 "PUT /gaddsDownload/86ab1690-e204-11ee-890e-8301f339c236 HTTP/1.1" 202 16735
+gadds_download 12919: subset_dataset start elapsed time: 0:00:00
+gadds_download 12919: Subsetting /mnt/efs/gadds/GADDSDownload/netcdf_cache/dapds00.nci.org.au/thredds/fileServer/iv65/Geoscience_Australia_Geophysics_Reference_Data_Collection/national_geophysical_compilations/Magmap2019/Magmap2019-grid-tmi_rtp_1vd-AWAGS_MAG_2019.nc to temporary file /mnt/efs/gadds/GADDSDownload/86ab1690-e204-11ee-890e-8301f339c236/Magmap2019-grid-tmi_rtp_1vd-AWAGS_MAG_2019.nc
+gadds_download 12919: Creating netcdf_util object for /mnt/efs/gadds/GADDSDownload/netcdf_cache/dapds00.nci.org.au/thredds/fileServer/iv65/Geoscience_Australia_Geophysics_Reference_Data_Collection/national_geophysical_compilations/Magmap2019/Magmap2019-grid-tmi_rtp_1vd-AWAGS_MAG_2019.nc
+gadds_download 12919: Using netcdf dataset object from local cache verification for netcdf_util object creation.
+geophys_utils._netcdf_utils 12919: Logger geophys_utils._netcdf_utils set to level 10
+geophys_utils._netcdf_utils 12919: Logger geophys_utils._netcdf_grid_utils set to level 10
+geophys_utils._netcdf_utils 12919: Logger geophys_utils._netcdf_utils set to level 10
+geophys_utils._netcdf_utils 12919: Running NetCDFUtils constructor
+geophys_utils._netcdf_grid_utils 12919: Running NetCDFGridUtils constructor
+geophys_utils._netcdf_utils 12919: Getting crs_variable property value
+geophys_utils._netcdf_utils 12919: Getting wkt property value
+gadds_download 12919: Using cached netCDF grid dataset http://dapds00.nci.org.au/thredds/fileServer/iv65/Geoscience_Australia_Geophysics_Reference_Data_Collection/national_geophysical_compilations/Magmap2019/Magmap2019-grid-tmi_rtp_1vd-AWAGS_MAG_2019.nc for ReprojectImage operation
+gadds_download 12919: subset_dataset end elapsed time: 0:00:00
+gadds_download 12919: Setting status to Converting
+urllib3.connectionpool 12919: Starting new HTTP connection (1): localhost:8000
+urllib3.connectionpool 12919: http://localhost:8000 "PUT /gaddsDownload/86ab1690-e204-11ee-890e-8301f339c236 HTTP/1.1" 202 16735
+gadds_download 12919: Finding dataset licence from netCDF file.
+gadds_download 12919: /mnt/efs/gadds/GADDSDownload/netcdf_cache/dapds00.nci.org.au/thredds/fileServer/iv65/Geoscience_Australia_Geophysics_Reference_Data_Collection/national_geophysical_compilations/Magmap2019/Magmap2019-grid-tmi_rtp_1vd-AWAGS_MAG_2019.nc
+gadds_download 12919: Dataset licence found: CC BY 4.0 (C) Commonwealth of Australia (Geoscience Australia)
+gadds_download 12919: convert_dataset start elapsed time: 0:00:00
+gadds_download 12919: Creating GTiff output for grid dataset /mnt/efs/gadds/GADDSDownload/netcdf_cache/dapds00.nci.org.au/thredds/fileServer/iv65/Geoscience_Australia_Geophysics_Reference_Data_Collection/national_geophysical_compilations/Magmap2019/Magmap2019-grid-tmi_rtp_1vd-AWAGS_MAG_2019.nc
+root 12919: output_crs_spatial_ref:GEOGCS["GDA94",
+    DATUM["Geocentric_Datum_of_Australia_1994",
+        SPHEROID["GRS 1980",6378137,298.257222101,
+            AUTHORITY["EPSG","7019"]],
+        TOWGS84[0,0,0,0,0,0,0],
+        AUTHORITY["EPSG","6283"]],
+    PRIMEM["Greenwich",0,
+        AUTHORITY["EPSG","8901"]],
+    UNIT["degree",0.0174532925199433,
+        AUTHORITY["EPSG","9122"]],
+    AXIS["Latitude",NORTH],
+    AXIS["Longitude",EAST],
+    AUTHORITY["EPSG","4283"]]
+root 12919: native_crs_spatial_ref:GEOGCS["GEOCENTRIC DATUM of AUSTRALIA",
+    DATUM["GDA94",
+        SPHEROID["GRS80",6378137,298.257222101]],
+    PRIMEM["Greenwich",0],
+    UNIT["degree",0.0174532925199433],
+    AXIS["Longitude",EAST],
+    AXIS["Latitude",NORTH]]
+gadds_download 12919: Pixel realignment required: True
+gadds_download 12919: CRS change is required: True
+gadds_download 12919: Pixel resolution change is required: False
+gadds_download 12919: Dataset extent is contained within request polygon: False
+gadds_download 12919: resample_grid start elapsed time: 0:00:00
+gadds_download 12919: clipping=True, extent=POLYGON ((147.5947301779674 -34.68178264237262, 149.765810925957 -34.68178264237262, 149.765810925957 -32.79031259887355, 147.5947301779674 -32.79031259887355, 147.5947301779674 -34.68178264237262))
+gadds_download 12919: Opening GDAL dataset /mnt/efs/gadds/GADDSDownload/netcdf_cache/dapds00.nci.org.au/thredds/fileServer/iv65/Geoscience_Australia_Geophysics_Reference_Data_Collection/national_geophysical_compilations/Magmap2019/Magmap2019-grid-tmi_rtp_1vd-AWAGS_MAG_2019.nc
+gadds_download 12919: Checking grid for multiple bands.
+gadds_download 12919: <osgeo.gdal.Dataset; proxy of <Swig Object of type 'GDALDatasetShadow *' at 0x7ffb0bb9bba0> >
+gadds_download 12919: source_crs_wkt = GEOGCS["GEOCENTRIC DATUM of AUSTRALIA",DATUM["GDA94",SPHEROID["GRS80",6378137,298.257222101]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433],AXIS["Longitude",EAST],AXIS["Latitude",NORTH]]
+gadds_download 12919: source_geotransform = (105.99958334997916, 0.0008332999999999999, 0.0, -9.02649524998639, 0.0, -0.0008333)
+gadds_download 12919: source_pixels = (58399, 41886)
+gadds_download 12919: source_bounds:(105.99958334997916, -43.93009904998639, 154.66347004997917, -9.02649524998639)
+gadds_download 12919: extent_bounds:(147.59473017796742, -34.681782642372625, 149.76581092595703, -32.79031259887355)
+gadds_download 12919: source_crs_wkt:GEOGCS["GEOCENTRIC DATUM of AUSTRALIA",DATUM["GDA94",SPHEROID["GRS80",6378137,298.257222101]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433],AXIS["Longitude",EAST],AXIS["Latitude",NORTH]]
+gadds_download 12919: extent_crs_wkt:EPSG:4283
+gadds_download 12919: dest_crs_wkt:GDA94
+gadds_download 12919: reprojected_source_bounds = [105.99958334997916, -43.93009904998639, 154.66347004997917, -9.02649524998639]
+gadds_download 12919: reprojected_extent_bounds = [147.59473017796742, -34.681782642372625, 149.76581092595703, -32.79031259887355]
+gadds_download 12919: dest_bounds = [147.59473017796742, -34.681782642372625, 149.76581092595703, -32.79031259887355]
+gadds_download 12919: equivalent_pixel_sizes = [0.0008333000000106949, 0.0008333000000000368]
+gadds_download 12919: Using computed equivalent dest_resolution of 0.0008500000000000001 (0.0008333000000053659 rounded to nearest 5e-05)
+gadds_download 12919: integral_pixel_bounds = (173640, -40803, 176196, -38576)
+gadds_download 12919: Integral pixel aligned dest_pixels = (2556, 2227)
+gadds_download 12919: Integral pixel aligned dest_bounds = [147.59400000000002, -34.68255, 149.7666, -32.7896]
+gadds_download 12919: source_lon_origin: 105.99958334997916
+gadds_download 12919: source_lat_origin: -9.02649524998639
+gadds_download 12919: dest_lon_origin: 147.59400000000002
+gadds_download 12919: dest_lat_origin: -32.7896
+gadds_download 12919: lon_diff_divided_by_pixel_size = 48934.60782355395
+gadds_download 12919: lat_diff_divided_by_pixel_size = 27956.593823545423
+gadds_download 12919: dest_crs_wkt = GEOGCS["GDA94",DATUM["Geocentric_Datum_of_Australia_1994",SPHEROID["GRS 1980",6378137,298.257222101,AUTHORITY["EPSG","7019"]],TOWGS84[0,0,0,0,0,0,0],AUTHORITY["EPSG","6283"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AXIS["Latitude",NORTH],AXIS["Longitude",EAST],AUTHORITY["EPSG","4283"]]
+gadds_download 12919: dest_geotransform = (147.59400000000002, 0.0008500000000000001, 0, -32.7896, 0, -0.0008500000000000001)
+gadds_download 12919: Opening destination GDAL dataset /mnt/efs/gadds/GADDSDownload/86ab1690-e204-11ee-890e-8301f339c236/Magmap2019-grid-tmi_rtp_1vd-AWAGS_MAG_2019.tif
+gadds_download 12919: Setting no data value to -99999.0 for band 1
+gadds_download 12919: Resampling /mnt/efs/gadds/GADDSDownload/netcdf_cache/dapds00.nci.org.au/thredds/fileServer/iv65/Geoscience_Australia_Geophysics_Reference_Data_Collection/national_geophysical_compilations/Magmap2019/Magmap2019-grid-tmi_rtp_1vd-AWAGS_MAG_2019.nc to /mnt/efs/gadds/GADDSDownload/86ab1690-e204-11ee-890e-8301f339c236/Magmap2019-grid-tmi_rtp_1vd-AWAGS_MAG_2019.tif using "bilinear" algorithm
+gadds_download 12919: destination_dataset <osgeo.gdal.Dataset; proxy of <Swig Object of type 'GDALDatasetShadow *' at 0x7ffb0bb9bae0> >
+gadds_download 12919: Checking grid contains non NoData values in Band1..
+gadds_download 12919: Large grid, with 5692212 pixels. Iterating through chunks...
+gadds_download 12919: Non NoData values found.
+gadds_download 12919: resample_grid end elapsed time: 0:00:01
+gadds_download 12919: Closing source netCDF file
+gadds_download 12919: convert_dataset end elapsed time: 0:00:01
+gadds_download 12919: Setting status to Zipping
+urllib3.connectionpool 12919: Starting new HTTP connection (1): localhost:8000
+urllib3.connectionpool 12919: http://localhost:8000 "PUT /gaddsDownload/86ab1690-e204-11ee-890e-8301f339c236 HTTP/1.1" 202 16732
+gadds_download 12919: Adding file Magmap2019-grid-tmi_rtp_1vd-AWAGS_MAG_2019.tif to zip file
+gadds_download 12919: Removing temporary converted dataset file /mnt/efs/gadds/GADDSDownload/86ab1690-e204-11ee-890e-8301f339c236/Magmap2019-grid-tmi_rtp_1vd-AWAGS_MAG_2019.tif
+gadds_download 12919: Adding license text file to zip.
+gadds_download 12919: <zipfile.ZipFile filename='/mnt/efs/gadds/GADDSDownload/86ab1690-e204-11ee-890e-8301f339c236/86ab1690-e204-11ee-890e-8301f339c236.zip' mode='w'>
+gadds_download 12919: Adding file Magmap2019-grid-tmi_rtp_1vd-AWAGS_MAG_2019_license.txt to zip file
+gadds_download 12919: cache_dataset start elapsed time: 0:00:02
+gadds_download 12919: Setting status to Uploading
+urllib3.connectionpool 12919: Starting new HTTP connection (1): localhost:8000
+urllib3.connectionpool 12919: http://localhost:8000 "PUT /gaddsDownload/86ab1690-e204-11ee-890e-8301f339c236 HTTP/1.1" 202 16734
+gadds_download 12919: Found cached netCDF file /mnt/efs/gadds/GADDSDownload/netcdf_cache/dapds00.nci.org.au/thredds/fileServer/iv65/Geoscience_Australia_Geophysics_Reference_Data_Collection/national_geophysical_compilations/Magmap2019/Magmap2019-grid-tmi_rtp-AWAGS_MAG_2019.nc in local cache
+gadds_download 12919: Verified complete netCDF file /mnt/efs/gadds/GADDSDownload/netcdf_cache/dapds00.nci.org.au/thredds/fileServer/iv65/Geoscience_Australia_Geophysics_Reference_Data_Collection/national_geophysical_compilations/Magmap2019/Magmap2019-grid-tmi_rtp-AWAGS_MAG_2019.nc in cache
+gadds_download 12919: Setting status to Subsetting
+urllib3.connectionpool 12919: Starting new HTTP connection (1): localhost:8000
+urllib3.connectionpool 12919: http://localhost:8000 "PUT /gaddsDownload/86ab1690-e204-11ee-890e-8301f339c236 HTTP/1.1" 202 16735
+gadds_download 12919: subset_dataset start elapsed time: 0:00:02
+gadds_download 12919: Subsetting /mnt/efs/gadds/GADDSDownload/netcdf_cache/dapds00.nci.org.au/thredds/fileServer/iv65/Geoscience_Australia_Geophysics_Reference_Data_Collection/national_geophysical_compilations/Magmap2019/Magmap2019-grid-tmi_rtp-AWAGS_MAG_2019.nc to temporary file /mnt/efs/gadds/GADDSDownload/86ab1690-e204-11ee-890e-8301f339c236/Magmap2019-grid-tmi_rtp-AWAGS_MAG_2019.nc
+gadds_download 12919: Creating netcdf_util object for /mnt/efs/gadds/GADDSDownload/netcdf_cache/dapds00.nci.org.au/thredds/fileServer/iv65/Geoscience_Australia_Geophysics_Reference_Data_Collection/national_geophysical_compilations/Magmap2019/Magmap2019-grid-tmi_rtp-AWAGS_MAG_2019.nc
+gadds_download 12919: Using netcdf dataset object from local cache verification for netcdf_util object creation.
+geophys_utils._netcdf_utils 12919: Logger geophys_utils._netcdf_utils set to level 10
+geophys_utils._netcdf_utils 12919: Logger geophys_utils._netcdf_grid_utils set to level 10
+geophys_utils._netcdf_utils 12919: Logger geophys_utils._netcdf_utils set to level 10
+geophys_utils._netcdf_utils 12919: Running NetCDFUtils constructor
+geophys_utils._netcdf_grid_utils 12919: Running NetCDFGridUtils constructor
+geophys_utils._netcdf_utils 12919: Getting crs_variable property value
+geophys_utils._netcdf_utils 12919: Getting wkt property value
+gadds_download 12919: Using cached netCDF grid dataset http://dapds00.nci.org.au/thredds/fileServer/iv65/Geoscience_Australia_Geophysics_Reference_Data_Collection/national_geophysical_compilations/Magmap2019/Magmap2019-grid-tmi_rtp-AWAGS_MAG_2019.nc for ReprojectImage operation
+gadds_download 12919: subset_dataset end elapsed time: 0:00:02
+gadds_download 12919: Setting status to Converting
+urllib3.connectionpool 12919: Starting new HTTP connection (1): localhost:8000
+urllib3.connectionpool 12919: http://localhost:8000 "PUT /gaddsDownload/86ab1690-e204-11ee-890e-8301f339c236 HTTP/1.1" 202 16735
+gadds_download 12919: Finding dataset licence from netCDF file.
+gadds_download 12919: /mnt/efs/gadds/GADDSDownload/netcdf_cache/dapds00.nci.org.au/thredds/fileServer/iv65/Geoscience_Australia_Geophysics_Reference_Data_Collection/national_geophysical_compilations/Magmap2019/Magmap2019-grid-tmi_rtp-AWAGS_MAG_2019.nc
+gadds_download 12919: Dataset licence found: CC BY 4.0 (C) Commonwealth of Australia (Geoscience Australia)
+gadds_download 12919: convert_dataset start elapsed time: 0:00:02
+gadds_download 12919: Creating GTiff output for grid dataset /mnt/efs/gadds/GADDSDownload/netcdf_cache/dapds00.nci.org.au/thredds/fileServer/iv65/Geoscience_Australia_Geophysics_Reference_Data_Collection/national_geophysical_compilations/Magmap2019/Magmap2019-grid-tmi_rtp-AWAGS_MAG_2019.nc
+root 12919: output_crs_spatial_ref:GEOGCS["GDA94",
+    DATUM["Geocentric_Datum_of_Australia_1994",
+        SPHEROID["GRS 1980",6378137,298.257222101,
+            AUTHORITY["EPSG","7019"]],
+        TOWGS84[0,0,0,0,0,0,0],
+        AUTHORITY["EPSG","6283"]],
+    PRIMEM["Greenwich",0,
+        AUTHORITY["EPSG","8901"]],
+    UNIT["degree",0.0174532925199433,
+        AUTHORITY["EPSG","9122"]],
+    AXIS["Latitude",NORTH],
+    AXIS["Longitude",EAST],
+    AUTHORITY["EPSG","4283"]]
+root 12919: native_crs_spatial_ref:GEOGCS["GEOCENTRIC DATUM of AUSTRALIA",
+    DATUM["GDA94",
+        SPHEROID["GRS80",6378137,298.257222101]],
+    PRIMEM["Greenwich",0],
+    UNIT["degree",0.0174532925199433],
+    AXIS["Longitude",EAST],
+    AXIS["Latitude",NORTH]]
+gadds_download 12919: Pixel realignment required: True
+gadds_download 12919: CRS change is required: True
+gadds_download 12919: Pixel resolution change is required: False
+gadds_download 12919: Dataset extent is contained within request polygon: False
+gadds_download 12919: resample_grid start elapsed time: 0:00:02
+gadds_download 12919: clipping=True, extent=POLYGON ((147.5947301779674 -34.68178264237262, 149.765810925957 -34.68178264237262, 149.765810925957 -32.79031259887355, 147.5947301779674 -32.79031259887355, 147.5947301779674 -34.68178264237262))
+gadds_download 12919: Opening GDAL dataset /mnt/efs/gadds/GADDSDownload/netcdf_cache/dapds00.nci.org.au/thredds/fileServer/iv65/Geoscience_Australia_Geophysics_Reference_Data_Collection/national_geophysical_compilations/Magmap2019/Magmap2019-grid-tmi_rtp-AWAGS_MAG_2019.nc
+gadds_download 12919: Checking grid for multiple bands.
+gadds_download 12919: <osgeo.gdal.Dataset; proxy of <Swig Object of type 'GDALDatasetShadow *' at 0x7ffb0bb9bb10> >
+gadds_download 12919: source_crs_wkt = GEOGCS["GEOCENTRIC DATUM of AUSTRALIA",DATUM["GDA94",SPHEROID["GRS80",6378137,298.257222101]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433],AXIS["Longitude",EAST],AXIS["Latitude",NORTH]]
+gadds_download 12919: source_geotransform = (95.4695738045586, 0.0008333, 0.0, -7.9074659996527785, 0.0, -0.0008333000000000001)
+gadds_download 12919: source_pixels = (80631, 47841)
+gadds_download 12919: source_bounds:(95.4695738045586, -47.77337129965279, 162.65938610455862, -7.9074659996527785)
+gadds_download 12919: extent_bounds:(147.59473017796742, -34.681782642372625, 149.76581092595703, -32.79031259887355)
+gadds_download 12919: source_crs_wkt:GEOGCS["GEOCENTRIC DATUM of AUSTRALIA",DATUM["GDA94",SPHEROID["GRS80",6378137,298.257222101]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433],AXIS["Longitude",EAST],AXIS["Latitude",NORTH]]
+gadds_download 12919: extent_crs_wkt:EPSG:4283
+gadds_download 12919: dest_crs_wkt:GDA94
+gadds_download 12919: reprojected_source_bounds = [95.4695738045586, -47.77337129965279, 162.65938610455862, -7.9074659996527785]
+gadds_download 12919: reprojected_extent_bounds = [147.59473017796742, -34.681782642372625, 149.76581092595703, -32.79031259887355]
+gadds_download 12919: dest_bounds = [147.59473017796742, -34.681782642372625, 149.76581092595703, -32.79031259887355]
+gadds_download 12919: equivalent_pixel_sizes = [0.0008333000000106949, 0.0008333000000000368]
+gadds_download 12919: Using computed equivalent dest_resolution of 0.0008500000000000001 (0.0008333000000053659 rounded to nearest 5e-05)
+gadds_download 12919: integral_pixel_bounds = (173640, -40803, 176196, -38576)
+gadds_download 12919: Integral pixel aligned dest_pixels = (2556, 2227)
+gadds_download 12919: Integral pixel aligned dest_bounds = [147.59400000000002, -34.68255, 149.7666, -32.7896]
+gadds_download 12919: source_lon_origin: 95.4695738045586
+gadds_download 12919: source_lat_origin: -7.9074659996527785
+gadds_download 12919: dest_lon_origin: 147.59400000000002
+gadds_download 12919: dest_lat_origin: -32.7896
+gadds_download 12919: lon_diff_divided_by_pixel_size = 61322.85434757813
+gadds_download 12919: lat_diff_divided_by_pixel_size = 29273.098823937904
+gadds_download 12919: dest_crs_wkt = GEOGCS["GDA94",DATUM["Geocentric_Datum_of_Australia_1994",SPHEROID["GRS 1980",6378137,298.257222101,AUTHORITY["EPSG","7019"]],TOWGS84[0,0,0,0,0,0,0],AUTHORITY["EPSG","6283"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AXIS["Latitude",NORTH],AXIS["Longitude",EAST],AUTHORITY["EPSG","4283"]]
+gadds_download 12919: dest_geotransform = (147.59400000000002, 0.0008500000000000001, 0, -32.7896, 0, -0.0008500000000000001)
+gadds_download 12919: Opening destination GDAL dataset /mnt/efs/gadds/GADDSDownload/86ab1690-e204-11ee-890e-8301f339c236/Magmap2019-grid-tmi_rtp-AWAGS_MAG_2019.tif
+gadds_download 12919: Setting no data value to -99999.0 for band 1
+gadds_download 12919: Resampling /mnt/efs/gadds/GADDSDownload/netcdf_cache/dapds00.nci.org.au/thredds/fileServer/iv65/Geoscience_Australia_Geophysics_Reference_Data_Collection/national_geophysical_compilations/Magmap2019/Magmap2019-grid-tmi_rtp-AWAGS_MAG_2019.nc to /mnt/efs/gadds/GADDSDownload/86ab1690-e204-11ee-890e-8301f339c236/Magmap2019-grid-tmi_rtp-AWAGS_MAG_2019.tif using "bilinear" algorithm
+gadds_download 12919: destination_dataset <osgeo.gdal.Dataset; proxy of <Swig Object of type 'GDALDatasetShadow *' at 0x7ffb0bb9b5a0> >
+gadds_download 12919: Checking grid contains non NoData values in Band1..
+gadds_download 12919: Large grid, with 5692212 pixels. Iterating through chunks...
+gadds_download 12919: Non NoData values found.
+gadds_download 12919: resample_grid end elapsed time: 0:00:03
+gadds_download 12919: Closing source netCDF file
+gadds_download 12919: convert_dataset end elapsed time: 0:00:03
+gadds_download 12919: Setting status to Zipping
+urllib3.connectionpool 12919: Starting new HTTP connection (1): localhost:8000
+urllib3.connectionpool 12919: http://localhost:8000 "PUT /gaddsDownload/86ab1690-e204-11ee-890e-8301f339c236 HTTP/1.1" 202 16732
+gadds_download 12919: Adding file Magmap2019-grid-tmi_rtp-AWAGS_MAG_2019.tif to zip file
+gadds_download 12919: Removing temporary converted dataset file /mnt/efs/gadds/GADDSDownload/86ab1690-e204-11ee-890e-8301f339c236/Magmap2019-grid-tmi_rtp-AWAGS_MAG_2019.tif
+gadds_download 12919: Adding license text file to zip.
+gadds_download 12919: <zipfile.ZipFile filename='/mnt/efs/gadds/GADDSDownload/86ab1690-e204-11ee-890e-8301f339c236/86ab1690-e204-11ee-890e-8301f339c236.zip' mode='w'>
+gadds_download 12919: Adding file Magmap2019-grid-tmi_rtp-AWAGS_MAG_2019_license.txt to zip file
+gadds_download 12919: cache_dataset start elapsed time: 0:00:04
+gadds_download 12919: Setting status to Uploading
+urllib3.connectionpool 12919: Starting new HTTP connection (1): localhost:8000
+urllib3.connectionpool 12919: http://localhost:8000 "PUT /gaddsDownload/86ab1690-e204-11ee-890e-8301f339c236 HTTP/1.1" 202 16734
+gadds_download 12919: Found cached netCDF file /mnt/efs/gadds/GADDSDownload/netcdf_cache/dapds00.nci.org.au/thredds/fileServer/iv65/Geoscience_Australia_Geophysics_Reference_Data_Collection/national_geophysical_compilations/Magmap2019/Magmap2019-grid-tmi-Cellsize40m-AWAGS_MAG_2019.nc in local cache
+gadds_download 12919: Verified complete netCDF file /mnt/efs/gadds/GADDSDownload/netcdf_cache/dapds00.nci.org.au/thredds/fileServer/iv65/Geoscience_Australia_Geophysics_Reference_Data_Collection/national_geophysical_compilations/Magmap2019/Magmap2019-grid-tmi-Cellsize40m-AWAGS_MAG_2019.nc in cache
+gadds_download 12919: Setting status to Subsetting
+urllib3.connectionpool 12919: Starting new HTTP connection (1): localhost:8000
+urllib3.connectionpool 12919: http://localhost:8000 "PUT /gaddsDownload/86ab1690-e204-11ee-890e-8301f339c236 HTTP/1.1" 202 16735
+gadds_download 12919: subset_dataset start elapsed time: 0:00:04
+gadds_download 12919: Subsetting /mnt/efs/gadds/GADDSDownload/netcdf_cache/dapds00.nci.org.au/thredds/fileServer/iv65/Geoscience_Australia_Geophysics_Reference_Data_Collection/national_geophysical_compilations/Magmap2019/Magmap2019-grid-tmi-Cellsize40m-AWAGS_MAG_2019.nc to temporary file /mnt/efs/gadds/GADDSDownload/86ab1690-e204-11ee-890e-8301f339c236/Magmap2019-grid-tmi-Cellsize40m-AWAGS_MAG_2019.nc
+gadds_download 12919: Creating netcdf_util object for /mnt/efs/gadds/GADDSDownload/netcdf_cache/dapds00.nci.org.au/thredds/fileServer/iv65/Geoscience_Australia_Geophysics_Reference_Data_Collection/national_geophysical_compilations/Magmap2019/Magmap2019-grid-tmi-Cellsize40m-AWAGS_MAG_2019.nc
+gadds_download 12919: Using netcdf dataset object from local cache verification for netcdf_util object creation.
+geophys_utils._netcdf_utils 12919: Logger geophys_utils._netcdf_utils set to level 10
+geophys_utils._netcdf_utils 12919: Logger geophys_utils._netcdf_grid_utils set to level 10
+geophys_utils._netcdf_utils 12919: Logger geophys_utils._netcdf_utils set to level 10
+geophys_utils._netcdf_utils 12919: Running NetCDFUtils constructor
+geophys_utils._netcdf_grid_utils 12919: Running NetCDFGridUtils constructor
+geophys_utils._netcdf_utils 12919: Getting crs_variable property value
+geophys_utils._netcdf_utils 12919: Getting wkt property value
+gadds_download 12919: Using cached netCDF grid dataset http://dapds00.nci.org.au/thredds/fileServer/iv65/Geoscience_Australia_Geophysics_Reference_Data_Collection/national_geophysical_compilations/Magmap2019/Magmap2019-grid-tmi-Cellsize40m-AWAGS_MAG_2019.nc for ReprojectImage operation
+gadds_download 12919: subset_dataset end elapsed time: 0:00:04
+gadds_download 12919: Setting status to Converting
+urllib3.connectionpool 12919: Starting new HTTP connection (1): localhost:8000
+urllib3.connectionpool 12919: http://localhost:8000 "PUT /gaddsDownload/86ab1690-e204-11ee-890e-8301f339c236 HTTP/1.1" 202 16735
+gadds_download 12919: Finding dataset licence from netCDF file.
+gadds_download 12919: /mnt/efs/gadds/GADDSDownload/netcdf_cache/dapds00.nci.org.au/thredds/fileServer/iv65/Geoscience_Australia_Geophysics_Reference_Data_Collection/national_geophysical_compilations/Magmap2019/Magmap2019-grid-tmi-Cellsize40m-AWAGS_MAG_2019.nc
+gadds_download 12919: Dataset licence found: CC BY 4.0 (C) Commonwealth of Australia (Geoscience Australia)
+gadds_download 12919: convert_dataset start elapsed time: 0:00:04
+gadds_download 12919: Creating GTiff output for grid dataset /mnt/efs/gadds/GADDSDownload/netcdf_cache/dapds00.nci.org.au/thredds/fileServer/iv65/Geoscience_Australia_Geophysics_Reference_Data_Collection/national_geophysical_compilations/Magmap2019/Magmap2019-grid-tmi-Cellsize40m-AWAGS_MAG_2019.nc
+root 12919: output_crs_spatial_ref:GEOGCS["GDA94",
+    DATUM["Geocentric_Datum_of_Australia_1994",
+        SPHEROID["GRS 1980",6378137,298.257222101,
+            AUTHORITY["EPSG","7019"]],
+        TOWGS84[0,0,0,0,0,0,0],
+        AUTHORITY["EPSG","6283"]],
+    PRIMEM["Greenwich",0,
+        AUTHORITY["EPSG","8901"]],
+    UNIT["degree",0.0174532925199433,
+        AUTHORITY["EPSG","9122"]],
+    AXIS["Latitude",NORTH],
+    AXIS["Longitude",EAST],
+    AUTHORITY["EPSG","4283"]]
+root 12919: native_crs_spatial_ref:GEOGCS["GEOCENTRIC DATUM of AUSTRALIA",
+    DATUM["GDA94",
+        SPHEROID["GRS80",6378137,298.257222101]],
+    PRIMEM["Greenwich",0],
+    UNIT["degree",0.0174532925199433],
+    AXIS["Longitude",EAST],
+    AXIS["Latitude",NORTH]]
+gadds_download 12919: Pixel realignment required: True
+gadds_download 12919: CRS change is required: True
+gadds_download 12919: Pixel resolution change is required: False
+gadds_download 12919: Dataset extent is contained within request polygon: False
+gadds_download 12919: resample_grid start elapsed time: 0:00:04
+gadds_download 12919: clipping=True, extent=POLYGON ((147.5947301779674 -34.68178264237262, 149.765810925957 -34.68178264237262, 149.765810925957 -32.79031259887355, 147.5947301779674 -32.79031259887355, 147.5947301779674 -34.68178264237262))
+gadds_download 12919: Opening GDAL dataset /mnt/efs/gadds/GADDSDownload/netcdf_cache/dapds00.nci.org.au/thredds/fileServer/iv65/Geoscience_Australia_Geophysics_Reference_Data_Collection/national_geophysical_compilations/Magmap2019/Magmap2019-grid-tmi-Cellsize40m-AWAGS_MAG_2019.nc
+gadds_download 12919: Checking grid for multiple bands.
+gadds_download 12919: <osgeo.gdal.Dataset; proxy of <Swig Object of type 'GDALDatasetShadow *' at 0x7ffb0bb9b5a0> >
+gadds_download 12919: source_crs_wkt = GEOGCS["GEOCENTRIC DATUM of AUSTRALIA",DATUM["GDA94",SPHEROID["GRS80",6378137,298.257222101]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433],AXIS["Longitude",EAST],AXIS["Latitude",NORTH]]
+gadds_download 12919: source_geotransform = (105.99979175, 0.0004165, 0.0, -9.02670365, 0.0, -0.00041649999999999993)
+gadds_download 12919: source_pixels = (116839, 83802)
+gadds_download 12919: source_bounds:(105.99979175, -43.93023665, 154.66323525, -9.02670365)
+gadds_download 12919: extent_bounds:(147.59473017796742, -34.681782642372625, 149.76581092595703, -32.79031259887355)
+gadds_download 12919: source_crs_wkt:GEOGCS["GEOCENTRIC DATUM of AUSTRALIA",DATUM["GDA94",SPHEROID["GRS80",6378137,298.257222101]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433],AXIS["Longitude",EAST],AXIS["Latitude",NORTH]]
+gadds_download 12919: extent_crs_wkt:EPSG:4283
+gadds_download 12919: dest_crs_wkt:GDA94
+gadds_download 12919: reprojected_source_bounds = [105.99979175, -43.93023665, 154.66323525, -9.02670365]
+gadds_download 12919: reprojected_extent_bounds = [147.59473017796742, -34.681782642372625, 149.76581092595703, -32.79031259887355]
+gadds_download 12919: dest_bounds = [147.59473017796742, -34.681782642372625, 149.76581092595703, -32.79031259887355]
+gadds_download 12919: equivalent_pixel_sizes = [0.00041649999997162013, 0.00041650000000004184]
+gadds_download 12919: Using computed equivalent dest_resolution of 0.0004 (0.000416499999985831 rounded to nearest 5e-05)
+gadds_download 12919: integral_pixel_bounds = (368986, -86705, 374415, -81975)
+gadds_download 12919: Integral pixel aligned dest_pixels = (5429, 4730)
+gadds_download 12919: Integral pixel aligned dest_bounds = [147.5944, -34.682, 149.76600000000002, -32.79]
+gadds_download 12919: source_lon_origin: 105.99979175
+gadds_download 12919: source_lat_origin: -9.02670365
+gadds_download 12919: dest_lon_origin: 147.5944
+gadds_download 12919: dest_lat_origin: -32.79
+gadds_download 12919: lon_diff_divided_by_pixel_size = 103986.52062500002
+gadds_download 12919: lat_diff_divided_by_pixel_size = 59408.24087499999
+gadds_download 12919: dest_crs_wkt = GEOGCS["GDA94",DATUM["Geocentric_Datum_of_Australia_1994",SPHEROID["GRS 1980",6378137,298.257222101,AUTHORITY["EPSG","7019"]],TOWGS84[0,0,0,0,0,0,0],AUTHORITY["EPSG","6283"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AXIS["Latitude",NORTH],AXIS["Longitude",EAST],AUTHORITY["EPSG","4283"]]
+gadds_download 12919: dest_geotransform = (147.5944, 0.0004, 0, -32.79, 0, -0.0004)
+gadds_download 12919: Opening destination GDAL dataset /mnt/efs/gadds/GADDSDownload/86ab1690-e204-11ee-890e-8301f339c236/Magmap2019-grid-tmi-Cellsize40m-AWAGS_MAG_2019.tif
+gadds_download 12919: Setting no data value to -99999.0 for band 1
+gadds_download 12919: Resampling /mnt/efs/gadds/GADDSDownload/netcdf_cache/dapds00.nci.org.au/thredds/fileServer/iv65/Geoscience_Australia_Geophysics_Reference_Data_Collection/national_geophysical_compilations/Magmap2019/Magmap2019-grid-tmi-Cellsize40m-AWAGS_MAG_2019.nc to /mnt/efs/gadds/GADDSDownload/86ab1690-e204-11ee-890e-8301f339c236/Magmap2019-grid-tmi-Cellsize40m-AWAGS_MAG_2019.tif using "bilinear" algorithm
+gadds_download 12919: destination_dataset <osgeo.gdal.Dataset; proxy of <Swig Object of type 'GDALDatasetShadow *' at 0x7ffb0bb9bd80> >
+gadds_download 12919: Checking grid contains non NoData values in Band1..
+gadds_download 12919: Large grid, with 25679170 pixels. Iterating through chunks...
+gadds_download 12919: Non NoData values found.
+gadds_download 12919: resample_grid end elapsed time: 0:00:08
+gadds_download 12919: Closing source netCDF file
+gadds_download 12919: convert_dataset end elapsed time: 0:00:08
+gadds_download 12919: Setting status to Zipping
+urllib3.connectionpool 12919: Starting new HTTP connection (1): localhost:8000
+urllib3.connectionpool 12919: http://localhost:8000 "PUT /gaddsDownload/86ab1690-e204-11ee-890e-8301f339c236 HTTP/1.1" 202 16732
+gadds_download 12919: Adding file Magmap2019-grid-tmi-Cellsize40m-AWAGS_MAG_2019.tif to zip file
+gadds_download 12919: Removing temporary converted dataset file /mnt/efs/gadds/GADDSDownload/86ab1690-e204-11ee-890e-8301f339c236/Magmap2019-grid-tmi-Cellsize40m-AWAGS_MAG_2019.tif
+gadds_download 12919: Adding license text file to zip.
+gadds_download 12919: <zipfile.ZipFile filename='/mnt/efs/gadds/GADDSDownload/86ab1690-e204-11ee-890e-8301f339c236/86ab1690-e204-11ee-890e-8301f339c236.zip' mode='w'>
+gadds_download 12919: Adding file Magmap2019-grid-tmi-Cellsize40m-AWAGS_MAG_2019_license.txt to zip file
+gadds_download 12919: cache_dataset start elapsed time: 0:00:09
+gadds_download 12919: Setting status to Uploading
+urllib3.connectionpool 12919: Starting new HTTP connection (1): localhost:8000
+urllib3.connectionpool 12919: http://localhost:8000 "PUT /gaddsDownload/86ab1690-e204-11ee-890e-8301f339c236 HTTP/1.1" 202 16734
+gadds_download 12919: Found cached netCDF file /mnt/efs/gadds/GADDSDownload/netcdf_cache/dapds00.nci.org.au/thredds/fileServer/iv65/Geoscience_Australia_Geophysics_Reference_Data_Collection/national_geophysical_compilations/Radmap2019/Radmap2019-grid-th_conc-Filtered-AWAGS_RAD_2019.nc in local cache
+gadds_download 12919: Verified complete netCDF file /mnt/efs/gadds/GADDSDownload/netcdf_cache/dapds00.nci.org.au/thredds/fileServer/iv65/Geoscience_Australia_Geophysics_Reference_Data_Collection/national_geophysical_compilations/Radmap2019/Radmap2019-grid-th_conc-Filtered-AWAGS_RAD_2019.nc in cache
+gadds_download 12919: Setting status to Subsetting
+urllib3.connectionpool 12919: Starting new HTTP connection (1): localhost:8000
+urllib3.connectionpool 12919: http://localhost:8000 "PUT /gaddsDownload/86ab1690-e204-11ee-890e-8301f339c236 HTTP/1.1" 202 16735
+gadds_download 12919: subset_dataset start elapsed time: 0:00:09
+gadds_download 12919: Subsetting /mnt/efs/gadds/GADDSDownload/netcdf_cache/dapds00.nci.org.au/thredds/fileServer/iv65/Geoscience_Australia_Geophysics_Reference_Data_Collection/national_geophysical_compilations/Radmap2019/Radmap2019-grid-th_conc-Filtered-AWAGS_RAD_2019.nc to temporary file /mnt/efs/gadds/GADDSDownload/86ab1690-e204-11ee-890e-8301f339c236/Radmap2019-grid-th_conc-Filtered-AWAGS_RAD_2019.nc
+gadds_download 12919: Creating netcdf_util object for /mnt/efs/gadds/GADDSDownload/netcdf_cache/dapds00.nci.org.au/thredds/fileServer/iv65/Geoscience_Australia_Geophysics_Reference_Data_Collection/national_geophysical_compilations/Radmap2019/Radmap2019-grid-th_conc-Filtered-AWAGS_RAD_2019.nc
+gadds_download 12919: Using netcdf dataset object from local cache verification for netcdf_util object creation.
+geophys_utils._netcdf_utils 12919: Logger geophys_utils._netcdf_utils set to level 10
+geophys_utils._netcdf_utils 12919: Logger geophys_utils._netcdf_grid_utils set to level 10
+geophys_utils._netcdf_utils 12919: Logger geophys_utils._netcdf_utils set to level 10
+geophys_utils._netcdf_utils 12919: Running NetCDFUtils constructor
+geophys_utils._netcdf_grid_utils 12919: Running NetCDFGridUtils constructor
+geophys_utils._netcdf_utils 12919: Getting crs_variable property value
+geophys_utils._netcdf_utils 12919: Getting wkt property value
+gadds_download 12919: Using cached netCDF grid dataset http://dapds00.nci.org.au/thredds/fileServer/iv65/Geoscience_Australia_Geophysics_Reference_Data_Collection/national_geophysical_compilations/Radmap2019/Radmap2019-grid-th_conc-Filtered-AWAGS_RAD_2019.nc for ReprojectImage operation
+gadds_download 12919: subset_dataset end elapsed time: 0:00:09
+gadds_download 12919: Setting status to Converting
+urllib3.connectionpool 12919: Starting new HTTP connection (1): localhost:8000
+urllib3.connectionpool 12919: http://localhost:8000 "PUT /gaddsDownload/86ab1690-e204-11ee-890e-8301f339c236 HTTP/1.1" 202 16735
+gadds_download 12919: Finding dataset licence from netCDF file.
+gadds_download 12919: /mnt/efs/gadds/GADDSDownload/netcdf_cache/dapds00.nci.org.au/thredds/fileServer/iv65/Geoscience_Australia_Geophysics_Reference_Data_Collection/national_geophysical_compilations/Radmap2019/Radmap2019-grid-th_conc-Filtered-AWAGS_RAD_2019.nc
+gadds_download 12919: Dataset licence found: CC BY 4.0 (C) Commonwealth of Australia (Geoscience Australia)
+gadds_download 12919: convert_dataset start elapsed time: 0:00:09
+gadds_download 12919: Creating GTiff output for grid dataset /mnt/efs/gadds/GADDSDownload/netcdf_cache/dapds00.nci.org.au/thredds/fileServer/iv65/Geoscience_Australia_Geophysics_Reference_Data_Collection/national_geophysical_compilations/Radmap2019/Radmap2019-grid-th_conc-Filtered-AWAGS_RAD_2019.nc
+root 12919: output_crs_spatial_ref:GEOGCS["GDA94",
+    DATUM["Geocentric_Datum_of_Australia_1994",
+        SPHEROID["GRS 1980",6378137,298.257222101,
+            AUTHORITY["EPSG","7019"]],
+        TOWGS84[0,0,0,0,0,0,0],
+        AUTHORITY["EPSG","6283"]],
+    PRIMEM["Greenwich",0,
+        AUTHORITY["EPSG","8901"]],
+    UNIT["degree",0.0174532925199433,
+        AUTHORITY["EPSG","9122"]],
+    AXIS["Latitude",NORTH],
+    AXIS["Longitude",EAST],
+    AUTHORITY["EPSG","4283"]]
+root 12919: native_crs_spatial_ref:GEOGCS["GEOCENTRIC DATUM of AUSTRALIA",
+    DATUM["GDA94",
+        SPHEROID["GRS80",6378137,298.257222101]],
+    PRIMEM["Greenwich",0],
+    UNIT["degree",0.0174532925199433],
+    AXIS["Longitude",EAST],
+    AXIS["Latitude",NORTH]]
+gadds_download 12919: Pixel realignment required: True
+gadds_download 12919: CRS change is required: True
+gadds_download 12919: Pixel resolution change is required: False
+gadds_download 12919: Dataset extent is contained within request polygon: False
+gadds_download 12919: resample_grid start elapsed time: 0:00:09
+gadds_download 12919: clipping=True, extent=POLYGON ((147.5947301779674 -34.68178264237262, 149.765810925957 -34.68178264237262, 149.765810925957 -32.79031259887355, 147.5947301779674 -32.79031259887355, 147.5947301779674 -34.68178264237262))
+gadds_download 12919: Opening GDAL dataset /mnt/efs/gadds/GADDSDownload/netcdf_cache/dapds00.nci.org.au/thredds/fileServer/iv65/Geoscience_Australia_Geophysics_Reference_Data_Collection/national_geophysical_compilations/Radmap2019/Radmap2019-grid-th_conc-Filtered-AWAGS_RAD_2019.nc
+gadds_download 12919: Checking grid for multiple bands.
+gadds_download 12919: <osgeo.gdal.Dataset; proxy of <Swig Object of type 'GDALDatasetShadow *' at 0x7ffb0bb9bd80> >
+gadds_download 12919: source_crs_wkt = GEOGCS["GEOCENTRIC DATUM of AUSTRALIA",DATUM["GDA94",SPHEROID["GRS80",6378137,298.257222101]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433],AXIS["Longitude",EAST],AXIS["Latitude",NORTH]]
+gadds_download 12919: source_geotransform = (112.8995, 0.0010000000000000002, 0.0, -8.9995, 0.0, -0.001)
+gadds_download 12919: source_pixels = (40771, 34761)
+gadds_download 12919: source_bounds:(112.8995, -43.7605, 153.6705, -8.9995)
+gadds_download 12919: extent_bounds:(147.59473017796742, -34.681782642372625, 149.76581092595703, -32.79031259887355)
+gadds_download 12919: source_crs_wkt:GEOGCS["GEOCENTRIC DATUM of AUSTRALIA",DATUM["GDA94",SPHEROID["GRS80",6378137,298.257222101]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433],AXIS["Longitude",EAST],AXIS["Latitude",NORTH]]
+gadds_download 12919: extent_crs_wkt:EPSG:4283
+gadds_download 12919: dest_crs_wkt:GDA94
+gadds_download 12919: reprojected_source_bounds = [112.8995, -43.7605, 153.6705, -8.9995]
+gadds_download 12919: reprojected_extent_bounds = [147.59473017796742, -34.681782642372625, 149.76581092595703, -32.79031259887355]
+gadds_download 12919: dest_bounds = [147.59473017796742, -34.681782642372625, 149.76581092595703, -32.79031259887355]
+gadds_download 12919: equivalent_pixel_sizes = [0.0010000000000047748, 0.0009999999999976694]
+gadds_download 12919: Using computed equivalent dest_resolution of 0.001 (0.0010000000000012221 rounded to nearest 0.0005)
+gadds_download 12919: integral_pixel_bounds = (147594, -34682, 149766, -32790)
+gadds_download 12919: Integral pixel aligned dest_pixels = (2172, 1892)
+gadds_download 12919: Integral pixel aligned dest_bounds = [147.594, -34.682, 149.766, -32.79]
+gadds_download 12919: source_lon_origin: 112.8995
+gadds_download 12919: source_lat_origin: -8.9995
+gadds_download 12919: dest_lon_origin: 147.594
+gadds_download 12919: dest_lat_origin: -32.79
+gadds_download 12919: lon_diff_divided_by_pixel_size = 34694.49999999999
+gadds_download 12919: lat_diff_divided_by_pixel_size = 23790.5
+gadds_download 12919: dest_crs_wkt = GEOGCS["GDA94",DATUM["Geocentric_Datum_of_Australia_1994",SPHEROID["GRS 1980",6378137,298.257222101,AUTHORITY["EPSG","7019"]],TOWGS84[0,0,0,0,0,0,0],AUTHORITY["EPSG","6283"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AXIS["Latitude",NORTH],AXIS["Longitude",EAST],AUTHORITY["EPSG","4283"]]
+gadds_download 12919: dest_geotransform = (147.594, 0.001, 0, -32.79, 0, -0.001)
+gadds_download 12919: Opening destination GDAL dataset /mnt/efs/gadds/GADDSDownload/86ab1690-e204-11ee-890e-8301f339c236/Radmap2019-grid-th_conc-Filtered-AWAGS_RAD_2019.tif
+gadds_download 12919: Setting no data value to -99999.0 for band 1
+gadds_download 12919: Resampling /mnt/efs/gadds/GADDSDownload/netcdf_cache/dapds00.nci.org.au/thredds/fileServer/iv65/Geoscience_Australia_Geophysics_Reference_Data_Collection/national_geophysical_compilations/Radmap2019/Radmap2019-grid-th_conc-Filtered-AWAGS_RAD_2019.nc to /mnt/efs/gadds/GADDSDownload/86ab1690-e204-11ee-890e-8301f339c236/Radmap2019-grid-th_conc-Filtered-AWAGS_RAD_2019.tif using "bilinear" algorithm
+gadds_download 12919: destination_dataset <osgeo.gdal.Dataset; proxy of <Swig Object of type 'GDALDatasetShadow *' at 0x7ffb0bb9b960> >
+gadds_download 12919: Checking grid contains non NoData values in Band1..
+gadds_download 12919: resample_grid end elapsed time: 0:00:10
+gadds_download 12919: Closing source netCDF file
+gadds_download 12919: convert_dataset end elapsed time: 0:00:10
+gadds_download 12919: Setting status to Zipping
+urllib3.connectionpool 12919: Starting new HTTP connection (1): localhost:8000
+urllib3.connectionpool 12919: http://localhost:8000 "PUT /gaddsDownload/86ab1690-e204-11ee-890e-8301f339c236 HTTP/1.1" 202 16732
+gadds_download 12919: Adding file Radmap2019-grid-th_conc-Filtered-AWAGS_RAD_2019.tif to zip file
+gadds_download 12919: Removing temporary converted dataset file /mnt/efs/gadds/GADDSDownload/86ab1690-e204-11ee-890e-8301f339c236/Radmap2019-grid-th_conc-Filtered-AWAGS_RAD_2019.tif
+gadds_download 12919: Adding license text file to zip.
+gadds_download 12919: <zipfile.ZipFile filename='/mnt/efs/gadds/GADDSDownload/86ab1690-e204-11ee-890e-8301f339c236/86ab1690-e204-11ee-890e-8301f339c236.zip' mode='w'>
+gadds_download 12919: Adding file Radmap2019-grid-th_conc-Filtered-AWAGS_RAD_2019_license.txt to zip file
+gadds_download 12919: cache_dataset start elapsed time: 0:00:10
+gadds_download 12919: Setting status to Uploading
+urllib3.connectionpool 12919: Starting new HTTP connection (1): localhost:8000
+urllib3.connectionpool 12919: http://localhost:8000 "PUT /gaddsDownload/86ab1690-e204-11ee-890e-8301f339c236 HTTP/1.1" 202 16734
+gadds_download 12919: Found cached netCDF file /mnt/efs/gadds/GADDSDownload/netcdf_cache/dapds00.nci.org.au/thredds/fileServer/iv65/Geoscience_Australia_Geophysics_Reference_Data_Collection/national_geophysical_compilations/Radmap2019/Radmap2019-grid-k_conc-Filtered-AWAGS_RAD_2019.nc in local cache
+gadds_download 12919: Verified complete netCDF file /mnt/efs/gadds/GADDSDownload/netcdf_cache/dapds00.nci.org.au/thredds/fileServer/iv65/Geoscience_Australia_Geophysics_Reference_Data_Collection/national_geophysical_compilations/Radmap2019/Radmap2019-grid-k_conc-Filtered-AWAGS_RAD_2019.nc in cache
+gadds_download 12919: Setting status to Subsetting
+urllib3.connectionpool 12919: Starting new HTTP connection (1): localhost:8000
+urllib3.connectionpool 12919: http://localhost:8000 "PUT /gaddsDownload/86ab1690-e204-11ee-890e-8301f339c236 HTTP/1.1" 202 16735
+gadds_download 12919: subset_dataset start elapsed time: 0:00:11
+gadds_download 12919: Subsetting /mnt/efs/gadds/GADDSDownload/netcdf_cache/dapds00.nci.org.au/thredds/fileServer/iv65/Geoscience_Australia_Geophysics_Reference_Data_Collection/national_geophysical_compilations/Radmap2019/Radmap2019-grid-k_conc-Filtered-AWAGS_RAD_2019.nc to temporary file /mnt/efs/gadds/GADDSDownload/86ab1690-e204-11ee-890e-8301f339c236/Radmap2019-grid-k_conc-Filtered-AWAGS_RAD_2019.nc
+gadds_download 12919: Creating netcdf_util object for /mnt/efs/gadds/GADDSDownload/netcdf_cache/dapds00.nci.org.au/thredds/fileServer/iv65/Geoscience_Australia_Geophysics_Reference_Data_Collection/national_geophysical_compilations/Radmap2019/Radmap2019-grid-k_conc-Filtered-AWAGS_RAD_2019.nc
+gadds_download 12919: Using netcdf dataset object from local cache verification for netcdf_util object creation.
+geophys_utils._netcdf_utils 12919: Logger geophys_utils._netcdf_utils set to level 10
+geophys_utils._netcdf_utils 12919: Logger geophys_utils._netcdf_grid_utils set to level 10
+geophys_utils._netcdf_utils 12919: Logger geophys_utils._netcdf_utils set to level 10
+geophys_utils._netcdf_utils 12919: Running NetCDFUtils constructor
+geophys_utils._netcdf_grid_utils 12919: Running NetCDFGridUtils constructor
+geophys_utils._netcdf_utils 12919: Getting crs_variable property value
+geophys_utils._netcdf_utils 12919: Getting wkt property value
+gadds_download 12919: Using cached netCDF grid dataset http://dapds00.nci.org.au/thredds/fileServer/iv65/Geoscience_Australia_Geophysics_Reference_Data_Collection/national_geophysical_compilations/Radmap2019/Radmap2019-grid-k_conc-Filtered-AWAGS_RAD_2019.nc for ReprojectImage operation
+gadds_download 12919: subset_dataset end elapsed time: 0:00:11
+gadds_download 12919: Setting status to Converting
+urllib3.connectionpool 12919: Starting new HTTP connection (1): localhost:8000
+urllib3.connectionpool 12919: http://localhost:8000 "PUT /gaddsDownload/86ab1690-e204-11ee-890e-8301f339c236 HTTP/1.1" 202 16735
+gadds_download 12919: Finding dataset licence from netCDF file.
+gadds_download 12919: /mnt/efs/gadds/GADDSDownload/netcdf_cache/dapds00.nci.org.au/thredds/fileServer/iv65/Geoscience_Australia_Geophysics_Reference_Data_Collection/national_geophysical_compilations/Radmap2019/Radmap2019-grid-k_conc-Filtered-AWAGS_RAD_2019.nc
+gadds_download 12919: Dataset licence found: CC BY 4.0 (C) Commonwealth of Australia (Geoscience Australia)
+gadds_download 12919: convert_dataset start elapsed time: 0:00:11
+gadds_download 12919: Creating GTiff output for grid dataset /mnt/efs/gadds/GADDSDownload/netcdf_cache/dapds00.nci.org.au/thredds/fileServer/iv65/Geoscience_Australia_Geophysics_Reference_Data_Collection/national_geophysical_compilations/Radmap2019/Radmap2019-grid-k_conc-Filtered-AWAGS_RAD_2019.nc
+root 12919: output_crs_spatial_ref:GEOGCS["GDA94",
+    DATUM["Geocentric_Datum_of_Australia_1994",
+        SPHEROID["GRS 1980",6378137,298.257222101,
+            AUTHORITY["EPSG","7019"]],
+        TOWGS84[0,0,0,0,0,0,0],
+        AUTHORITY["EPSG","6283"]],
+    PRIMEM["Greenwich",0,
+        AUTHORITY["EPSG","8901"]],
+    UNIT["degree",0.0174532925199433,
+        AUTHORITY["EPSG","9122"]],
+    AXIS["Latitude",NORTH],
+    AXIS["Longitude",EAST],
+    AUTHORITY["EPSG","4283"]]
+root 12919: native_crs_spatial_ref:GEOGCS["GEOCENTRIC DATUM of AUSTRALIA",
+    DATUM["GDA94",
+        SPHEROID["GRS80",6378137,298.257222101]],
+    PRIMEM["Greenwich",0],
+    UNIT["degree",0.0174532925199433],
+    AXIS["Longitude",EAST],
+    AXIS["Latitude",NORTH]]
+gadds_download 12919: Pixel realignment required: True
+gadds_download 12919: CRS change is required: True
+gadds_download 12919: Pixel resolution change is required: False
+gadds_download 12919: Dataset extent is contained within request polygon: False
+gadds_download 12919: resample_grid start elapsed time: 0:00:11
+gadds_download 12919: clipping=True, extent=POLYGON ((147.5947301779674 -34.68178264237262, 149.765810925957 -34.68178264237262, 149.765810925957 -32.79031259887355, 147.5947301779674 -32.79031259887355, 147.5947301779674 -34.68178264237262))
+gadds_download 12919: Opening GDAL dataset /mnt/efs/gadds/GADDSDownload/netcdf_cache/dapds00.nci.org.au/thredds/fileServer/iv65/Geoscience_Australia_Geophysics_Reference_Data_Collection/national_geophysical_compilations/Radmap2019/Radmap2019-grid-k_conc-Filtered-AWAGS_RAD_2019.nc
+gadds_download 12919: Checking grid for multiple bands.
+gadds_download 12919: <osgeo.gdal.Dataset; proxy of <Swig Object of type 'GDALDatasetShadow *' at 0x7ffb0bb9b960> >
+gadds_download 12919: source_crs_wkt = GEOGCS["GEOCENTRIC DATUM of AUSTRALIA",DATUM["GDA94",SPHEROID["GRS80",6378137,298.257222101]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433],AXIS["Longitude",EAST],AXIS["Latitude",NORTH]]
+gadds_download 12919: source_geotransform = (112.8995, 0.0010000000000000002, 0.0, -8.9995, 0.0, -0.001)
+gadds_download 12919: source_pixels = (40771, 34761)
+gadds_download 12919: source_bounds:(112.8995, -43.7605, 153.6705, -8.9995)
+gadds_download 12919: extent_bounds:(147.59473017796742, -34.681782642372625, 149.76581092595703, -32.79031259887355)
+gadds_download 12919: source_crs_wkt:GEOGCS["GEOCENTRIC DATUM of AUSTRALIA",DATUM["GDA94",SPHEROID["GRS80",6378137,298.257222101]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433],AXIS["Longitude",EAST],AXIS["Latitude",NORTH]]
+gadds_download 12919: extent_crs_wkt:EPSG:4283
+gadds_download 12919: dest_crs_wkt:GDA94
+gadds_download 12919: reprojected_source_bounds = [112.8995, -43.7605, 153.6705, -8.9995]
+gadds_download 12919: reprojected_extent_bounds = [147.59473017796742, -34.681782642372625, 149.76581092595703, -32.79031259887355]
+gadds_download 12919: dest_bounds = [147.59473017796742, -34.681782642372625, 149.76581092595703, -32.79031259887355]
+gadds_download 12919: equivalent_pixel_sizes = [0.0010000000000047748, 0.0009999999999976694]
+gadds_download 12919: Using computed equivalent dest_resolution of 0.001 (0.0010000000000012221 rounded to nearest 0.0005)
+gadds_download 12919: integral_pixel_bounds = (147594, -34682, 149766, -32790)
+gadds_download 12919: Integral pixel aligned dest_pixels = (2172, 1892)
+gadds_download 12919: Integral pixel aligned dest_bounds = [147.594, -34.682, 149.766, -32.79]
+gadds_download 12919: source_lon_origin: 112.8995
+gadds_download 12919: source_lat_origin: -8.9995
+gadds_download 12919: dest_lon_origin: 147.594
+gadds_download 12919: dest_lat_origin: -32.79
+gadds_download 12919: lon_diff_divided_by_pixel_size = 34694.49999999999
+gadds_download 12919: lat_diff_divided_by_pixel_size = 23790.5
+gadds_download 12919: dest_crs_wkt = GEOGCS["GDA94",DATUM["Geocentric_Datum_of_Australia_1994",SPHEROID["GRS 1980",6378137,298.257222101,AUTHORITY["EPSG","7019"]],TOWGS84[0,0,0,0,0,0,0],AUTHORITY["EPSG","6283"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AXIS["Latitude",NORTH],AXIS["Longitude",EAST],AUTHORITY["EPSG","4283"]]
+gadds_download 12919: dest_geotransform = (147.594, 0.001, 0, -32.79, 0, -0.001)
+gadds_download 12919: Opening destination GDAL dataset /mnt/efs/gadds/GADDSDownload/86ab1690-e204-11ee-890e-8301f339c236/Radmap2019-grid-k_conc-Filtered-AWAGS_RAD_2019.tif
+gadds_download 12919: Setting no data value to -99999.0 for band 1
+gadds_download 12919: Resampling /mnt/efs/gadds/GADDSDownload/netcdf_cache/dapds00.nci.org.au/thredds/fileServer/iv65/Geoscience_Australia_Geophysics_Reference_Data_Collection/national_geophysical_compilations/Radmap2019/Radmap2019-grid-k_conc-Filtered-AWAGS_RAD_2019.nc to /mnt/efs/gadds/GADDSDownload/86ab1690-e204-11ee-890e-8301f339c236/Radmap2019-grid-k_conc-Filtered-AWAGS_RAD_2019.tif using "bilinear" algorithm
+gadds_download 12919: destination_dataset <osgeo.gdal.Dataset; proxy of <Swig Object of type 'GDALDatasetShadow *' at 0x7ffb0bb9bb10> >
+gadds_download 12919: Checking grid contains non NoData values in Band1..
+gadds_download 12919: resample_grid end elapsed time: 0:00:12
+gadds_download 12919: Closing source netCDF file
+gadds_download 12919: convert_dataset end elapsed time: 0:00:12
+gadds_download 12919: Setting status to Zipping
+urllib3.connectionpool 12919: Starting new HTTP connection (1): localhost:8000
+urllib3.connectionpool 12919: http://localhost:8000 "PUT /gaddsDownload/86ab1690-e204-11ee-890e-8301f339c236 HTTP/1.1" 202 16732
+gadds_download 12919: Adding file Radmap2019-grid-k_conc-Filtered-AWAGS_RAD_2019.tif to zip file
+gadds_download 12919: Removing temporary converted dataset file /mnt/efs/gadds/GADDSDownload/86ab1690-e204-11ee-890e-8301f339c236/Radmap2019-grid-k_conc-Filtered-AWAGS_RAD_2019.tif
+gadds_download 12919: Adding license text file to zip.
+gadds_download 12919: <zipfile.ZipFile filename='/mnt/efs/gadds/GADDSDownload/86ab1690-e204-11ee-890e-8301f339c236/86ab1690-e204-11ee-890e-8301f339c236.zip' mode='w'>
+gadds_download 12919: Adding file Radmap2019-grid-k_conc-Filtered-AWAGS_RAD_2019_license.txt to zip file
+gadds_download 12919: cache_dataset start elapsed time: 0:00:12
+gadds_download 12919: Setting status to Uploading
+urllib3.connectionpool 12919: Starting new HTTP connection (1): localhost:8000
+urllib3.connectionpool 12919: http://localhost:8000 "PUT /gaddsDownload/86ab1690-e204-11ee-890e-8301f339c236 HTTP/1.1" 202 16734
+gadds_download 12919: Found cached netCDF file /mnt/efs/gadds/GADDSDownload/netcdf_cache/dapds00.nci.org.au/thredds/fileServer/iv65/Geoscience_Australia_Geophysics_Reference_Data_Collection/national_geophysical_compilations/Radmap2019/Radmap2019-grid-u_conc-Filtered-AWAGS_RAD_2019.nc in local cache
+gadds_download 12919: Verified complete netCDF file /mnt/efs/gadds/GADDSDownload/netcdf_cache/dapds00.nci.org.au/thredds/fileServer/iv65/Geoscience_Australia_Geophysics_Reference_Data_Collection/national_geophysical_compilations/Radmap2019/Radmap2019-grid-u_conc-Filtered-AWAGS_RAD_2019.nc in cache
+gadds_download 12919: Setting status to Subsetting
+urllib3.connectionpool 12919: Starting new HTTP connection (1): localhost:8000
+urllib3.connectionpool 12919: http://localhost:8000 "PUT /gaddsDownload/86ab1690-e204-11ee-890e-8301f339c236 HTTP/1.1" 202 16735
+gadds_download 12919: subset_dataset start elapsed time: 0:00:12
+gadds_download 12919: Subsetting /mnt/efs/gadds/GADDSDownload/netcdf_cache/dapds00.nci.org.au/thredds/fileServer/iv65/Geoscience_Australia_Geophysics_Reference_Data_Collection/national_geophysical_compilations/Radmap2019/Radmap2019-grid-u_conc-Filtered-AWAGS_RAD_2019.nc to temporary file /mnt/efs/gadds/GADDSDownload/86ab1690-e204-11ee-890e-8301f339c236/Radmap2019-grid-u_conc-Filtered-AWAGS_RAD_2019.nc
+gadds_download 12919: Creating netcdf_util object for /mnt/efs/gadds/GADDSDownload/netcdf_cache/dapds00.nci.org.au/thredds/fileServer/iv65/Geoscience_Australia_Geophysics_Reference_Data_Collection/national_geophysical_compilations/Radmap2019/Radmap2019-grid-u_conc-Filtered-AWAGS_RAD_2019.nc
+gadds_download 12919: Using netcdf dataset object from local cache verification for netcdf_util object creation.
+geophys_utils._netcdf_utils 12919: Logger geophys_utils._netcdf_utils set to level 10
+geophys_utils._netcdf_utils 12919: Logger geophys_utils._netcdf_grid_utils set to level 10
+geophys_utils._netcdf_utils 12919: Logger geophys_utils._netcdf_utils set to level 10
+geophys_utils._netcdf_utils 12919: Running NetCDFUtils constructor
+geophys_utils._netcdf_grid_utils 12919: Running NetCDFGridUtils constructor
+geophys_utils._netcdf_utils 12919: Getting crs_variable property value
+geophys_utils._netcdf_utils 12919: Getting wkt property value
+gadds_download 12919: Using cached netCDF grid dataset http://dapds00.nci.org.au/thredds/fileServer/iv65/Geoscience_Australia_Geophysics_Reference_Data_Collection/national_geophysical_compilations/Radmap2019/Radmap2019-grid-u_conc-Filtered-AWAGS_RAD_2019.nc for ReprojectImage operation
+gadds_download 12919: subset_dataset end elapsed time: 0:00:12
+gadds_download 12919: Setting status to Converting
+urllib3.connectionpool 12919: Starting new HTTP connection (1): localhost:8000
+urllib3.connectionpool 12919: http://localhost:8000 "PUT /gaddsDownload/86ab1690-e204-11ee-890e-8301f339c236 HTTP/1.1" 202 16735
+gadds_download 12919: Finding dataset licence from netCDF file.
+gadds_download 12919: /mnt/efs/gadds/GADDSDownload/netcdf_cache/dapds00.nci.org.au/thredds/fileServer/iv65/Geoscience_Australia_Geophysics_Reference_Data_Collection/national_geophysical_compilations/Radmap2019/Radmap2019-grid-u_conc-Filtered-AWAGS_RAD_2019.nc
+gadds_download 12919: Dataset licence found: CC BY 4.0 (C) Commonwealth of Australia (Geoscience Australia)
+gadds_download 12919: convert_dataset start elapsed time: 0:00:12
+gadds_download 12919: Creating GTiff output for grid dataset /mnt/efs/gadds/GADDSDownload/netcdf_cache/dapds00.nci.org.au/thredds/fileServer/iv65/Geoscience_Australia_Geophysics_Reference_Data_Collection/national_geophysical_compilations/Radmap2019/Radmap2019-grid-u_conc-Filtered-AWAGS_RAD_2019.nc
+root 12919: output_crs_spatial_ref:GEOGCS["GDA94",
+    DATUM["Geocentric_Datum_of_Australia_1994",
+        SPHEROID["GRS 1980",6378137,298.257222101,
+            AUTHORITY["EPSG","7019"]],
+        TOWGS84[0,0,0,0,0,0,0],
+        AUTHORITY["EPSG","6283"]],
+    PRIMEM["Greenwich",0,
+        AUTHORITY["EPSG","8901"]],
+    UNIT["degree",0.0174532925199433,
+        AUTHORITY["EPSG","9122"]],
+    AXIS["Latitude",NORTH],
+    AXIS["Longitude",EAST],
+    AUTHORITY["EPSG","4283"]]
+root 12919: native_crs_spatial_ref:GEOGCS["GEOCENTRIC DATUM of AUSTRALIA",
+    DATUM["GDA94",
+        SPHEROID["GRS80",6378137,298.257222101]],
+    PRIMEM["Greenwich",0],
+    UNIT["degree",0.0174532925199433],
+    AXIS["Longitude",EAST],
+    AXIS["Latitude",NORTH]]
+gadds_download 12919: Pixel realignment required: True
+gadds_download 12919: CRS change is required: True
+gadds_download 12919: Pixel resolution change is required: False
+gadds_download 12919: Dataset extent is contained within request polygon: False
+gadds_download 12919: resample_grid start elapsed time: 0:00:12
+gadds_download 12919: clipping=True, extent=POLYGON ((147.5947301779674 -34.68178264237262, 149.765810925957 -34.68178264237262, 149.765810925957 -32.79031259887355, 147.5947301779674 -32.79031259887355, 147.5947301779674 -34.68178264237262))
+gadds_download 12919: Opening GDAL dataset /mnt/efs/gadds/GADDSDownload/netcdf_cache/dapds00.nci.org.au/thredds/fileServer/iv65/Geoscience_Australia_Geophysics_Reference_Data_Collection/national_geophysical_compilations/Radmap2019/Radmap2019-grid-u_conc-Filtered-AWAGS_RAD_2019.nc
+gadds_download 12919: Checking grid for multiple bands.
+gadds_download 12919: <osgeo.gdal.Dataset; proxy of <Swig Object of type 'GDALDatasetShadow *' at 0x7ffb0bb9bb10> >
+gadds_download 12919: source_crs_wkt = GEOGCS["GEOCENTRIC DATUM of AUSTRALIA",DATUM["GDA94",SPHEROID["GRS80",6378137,298.257222101]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433],AXIS["Longitude",EAST],AXIS["Latitude",NORTH]]
+gadds_download 12919: source_geotransform = (112.8995, 0.0010000000000000002, 0.0, -8.9995, 0.0, -0.001)
+gadds_download 12919: source_pixels = (40771, 34761)
+gadds_download 12919: source_bounds:(112.8995, -43.7605, 153.6705, -8.9995)
+gadds_download 12919: extent_bounds:(147.59473017796742, -34.681782642372625, 149.76581092595703, -32.79031259887355)
+gadds_download 12919: source_crs_wkt:GEOGCS["GEOCENTRIC DATUM of AUSTRALIA",DATUM["GDA94",SPHEROID["GRS80",6378137,298.257222101]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433],AXIS["Longitude",EAST],AXIS["Latitude",NORTH]]
+gadds_download 12919: extent_crs_wkt:EPSG:4283
+gadds_download 12919: dest_crs_wkt:GDA94
+gadds_download 12919: reprojected_source_bounds = [112.8995, -43.7605, 153.6705, -8.9995]
+gadds_download 12919: reprojected_extent_bounds = [147.59473017796742, -34.681782642372625, 149.76581092595703, -32.79031259887355]
+gadds_download 12919: dest_bounds = [147.59473017796742, -34.681782642372625, 149.76581092595703, -32.79031259887355]
+gadds_download 12919: equivalent_pixel_sizes = [0.0010000000000047748, 0.0009999999999976694]
+gadds_download 12919: Using computed equivalent dest_resolution of 0.001 (0.0010000000000012221 rounded to nearest 0.0005)
+gadds_download 12919: integral_pixel_bounds = (147594, -34682, 149766, -32790)
+gadds_download 12919: Integral pixel aligned dest_pixels = (2172, 1892)
+gadds_download 12919: Integral pixel aligned dest_bounds = [147.594, -34.682, 149.766, -32.79]
+gadds_download 12919: source_lon_origin: 112.8995
+gadds_download 12919: source_lat_origin: -8.9995
+gadds_download 12919: dest_lon_origin: 147.594
+gadds_download 12919: dest_lat_origin: -32.79
+gadds_download 12919: lon_diff_divided_by_pixel_size = 34694.49999999999
+gadds_download 12919: lat_diff_divided_by_pixel_size = 23790.5
+gadds_download 12919: dest_crs_wkt = GEOGCS["GDA94",DATUM["Geocentric_Datum_of_Australia_1994",SPHEROID["GRS 1980",6378137,298.257222101,AUTHORITY["EPSG","7019"]],TOWGS84[0,0,0,0,0,0,0],AUTHORITY["EPSG","6283"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AXIS["Latitude",NORTH],AXIS["Longitude",EAST],AUTHORITY["EPSG","4283"]]
+gadds_download 12919: dest_geotransform = (147.594, 0.001, 0, -32.79, 0, -0.001)
+gadds_download 12919: Opening destination GDAL dataset /mnt/efs/gadds/GADDSDownload/86ab1690-e204-11ee-890e-8301f339c236/Radmap2019-grid-u_conc-Filtered-AWAGS_RAD_2019.tif
+gadds_download 12919: Setting no data value to -99999.0 for band 1
+gadds_download 12919: Resampling /mnt/efs/gadds/GADDSDownload/netcdf_cache/dapds00.nci.org.au/thredds/fileServer/iv65/Geoscience_Australia_Geophysics_Reference_Data_Collection/national_geophysical_compilations/Radmap2019/Radmap2019-grid-u_conc-Filtered-AWAGS_RAD_2019.nc to /mnt/efs/gadds/GADDSDownload/86ab1690-e204-11ee-890e-8301f339c236/Radmap2019-grid-u_conc-Filtered-AWAGS_RAD_2019.tif using "bilinear" algorithm
+gadds_download 12919: destination_dataset <osgeo.gdal.Dataset; proxy of <Swig Object of type 'GDALDatasetShadow *' at 0x7ffb0bb9bbd0> >
+gadds_download 12919: Checking grid contains non NoData values in Band1..
+gadds_download 12919: resample_grid end elapsed time: 0:00:13
+gadds_download 12919: Closing source netCDF file
+gadds_download 12919: convert_dataset end elapsed time: 0:00:13
+gadds_download 12919: Setting status to Zipping
+urllib3.connectionpool 12919: Starting new HTTP connection (1): localhost:8000
+urllib3.connectionpool 12919: http://localhost:8000 "PUT /gaddsDownload/86ab1690-e204-11ee-890e-8301f339c236 HTTP/1.1" 202 16732
+gadds_download 12919: Adding file Radmap2019-grid-u_conc-Filtered-AWAGS_RAD_2019.tif to zip file
+gadds_download 12919: Removing temporary converted dataset file /mnt/efs/gadds/GADDSDownload/86ab1690-e204-11ee-890e-8301f339c236/Radmap2019-grid-u_conc-Filtered-AWAGS_RAD_2019.tif
+gadds_download 12919: Adding license text file to zip.
+gadds_download 12919: <zipfile.ZipFile filename='/mnt/efs/gadds/GADDSDownload/86ab1690-e204-11ee-890e-8301f339c236/86ab1690-e204-11ee-890e-8301f339c236.zip' mode='w'>
+gadds_download 12919: Adding file Radmap2019-grid-u_conc-Filtered-AWAGS_RAD_2019_license.txt to zip file
+gadds_download 12919: cache_dataset start elapsed time: 0:00:13
+gadds_download 12919: Setting status to Uploading
+urllib3.connectionpool 12919: Starting new HTTP connection (1): localhost:8000
+urllib3.connectionpool 12919: http://localhost:8000 "PUT /gaddsDownload/86ab1690-e204-11ee-890e-8301f339c236 HTTP/1.1" 202 16734
+gadds_download 12919: Found cached netCDF file /mnt/efs/gadds/GADDSDownload/netcdf_cache/dapds00.nci.org.au/thredds/fileServer/iv65/Geoscience_Australia_Geophysics_Reference_Data_Collection/national_geophysical_compilations/Gravmap2019/Gravmap2019-grid-grv_cscba-IncludesAirborne.nc in local cache
+gadds_download 12919: Verified complete netCDF file /mnt/efs/gadds/GADDSDownload/netcdf_cache/dapds00.nci.org.au/thredds/fileServer/iv65/Geoscience_Australia_Geophysics_Reference_Data_Collection/national_geophysical_compilations/Gravmap2019/Gravmap2019-grid-grv_cscba-IncludesAirborne.nc in cache
+gadds_download 12919: Setting status to Subsetting
+urllib3.connectionpool 12919: Starting new HTTP connection (1): localhost:8000
+urllib3.connectionpool 12919: http://localhost:8000 "PUT /gaddsDownload/86ab1690-e204-11ee-890e-8301f339c236 HTTP/1.1" 202 16735
+gadds_download 12919: subset_dataset start elapsed time: 0:00:14
+gadds_download 12919: Subsetting /mnt/efs/gadds/GADDSDownload/netcdf_cache/dapds00.nci.org.au/thredds/fileServer/iv65/Geoscience_Australia_Geophysics_Reference_Data_Collection/national_geophysical_compilations/Gravmap2019/Gravmap2019-grid-grv_cscba-IncludesAirborne.nc to temporary file /mnt/efs/gadds/GADDSDownload/86ab1690-e204-11ee-890e-8301f339c236/Gravmap2019-grid-grv_cscba-IncludesAirborne.nc
+gadds_download 12919: Creating netcdf_util object for /mnt/efs/gadds/GADDSDownload/netcdf_cache/dapds00.nci.org.au/thredds/fileServer/iv65/Geoscience_Australia_Geophysics_Reference_Data_Collection/national_geophysical_compilations/Gravmap2019/Gravmap2019-grid-grv_cscba-IncludesAirborne.nc
+gadds_download 12919: Using netcdf dataset object from local cache verification for netcdf_util object creation.
+geophys_utils._netcdf_utils 12919: Logger geophys_utils._netcdf_utils set to level 10
+geophys_utils._netcdf_utils 12919: Logger geophys_utils._netcdf_grid_utils set to level 10
+geophys_utils._netcdf_utils 12919: Logger geophys_utils._netcdf_utils set to level 10
+geophys_utils._netcdf_utils 12919: Running NetCDFUtils constructor
+geophys_utils._netcdf_grid_utils 12919: Running NetCDFGridUtils constructor
+geophys_utils._netcdf_utils 12919: Getting crs_variable property value
+geophys_utils._netcdf_utils 12919: Getting wkt property value
+gadds_download 12919: Using cached netCDF grid dataset http://dapds00.nci.org.au/thredds/fileServer/iv65/Geoscience_Australia_Geophysics_Reference_Data_Collection/national_geophysical_compilations/Gravmap2019/Gravmap2019-grid-grv_cscba-IncludesAirborne.nc for ReprojectImage operation
+gadds_download 12919: subset_dataset end elapsed time: 0:00:14
+gadds_download 12919: Setting status to Converting
+urllib3.connectionpool 12919: Starting new HTTP connection (1): localhost:8000
+urllib3.connectionpool 12919: http://localhost:8000 "PUT /gaddsDownload/86ab1690-e204-11ee-890e-8301f339c236 HTTP/1.1" 202 16735
+gadds_download 12919: Finding dataset licence from netCDF file.
+gadds_download 12919: /mnt/efs/gadds/GADDSDownload/netcdf_cache/dapds00.nci.org.au/thredds/fileServer/iv65/Geoscience_Australia_Geophysics_Reference_Data_Collection/national_geophysical_compilations/Gravmap2019/Gravmap2019-grid-grv_cscba-IncludesAirborne.nc
+gadds_download 12919: Dataset licence found: CC BY 4.0 (C) Commonwealth of Australia (Geoscience Australia)
+gadds_download 12919: convert_dataset start elapsed time: 0:00:14
+gadds_download 12919: Creating GTiff output for grid dataset /mnt/efs/gadds/GADDSDownload/netcdf_cache/dapds00.nci.org.au/thredds/fileServer/iv65/Geoscience_Australia_Geophysics_Reference_Data_Collection/national_geophysical_compilations/Gravmap2019/Gravmap2019-grid-grv_cscba-IncludesAirborne.nc
+root 12919: output_crs_spatial_ref:GEOGCS["GDA94",
+    DATUM["Geocentric_Datum_of_Australia_1994",
+        SPHEROID["GRS 1980",6378137,298.257222101,
+            AUTHORITY["EPSG","7019"]],
+        TOWGS84[0,0,0,0,0,0,0],
+        AUTHORITY["EPSG","6283"]],
+    PRIMEM["Greenwich",0,
+        AUTHORITY["EPSG","8901"]],
+    UNIT["degree",0.0174532925199433,
+        AUTHORITY["EPSG","9122"]],
+    AXIS["Latitude",NORTH],
+    AXIS["Longitude",EAST],
+    AUTHORITY["EPSG","4283"]]
+root 12919: native_crs_spatial_ref:GEOGCS["GEOCENTRIC DATUM of AUSTRALIA",
+    DATUM["GDA94",
+        SPHEROID["GRS80",6378137,298.257222101]],
+    PRIMEM["Greenwich",0],
+    UNIT["degree",0.0174532925199433],
+    AXIS["Longitude",EAST],
+    AXIS["Latitude",NORTH]]
+gadds_download 12919: Pixel realignment required: True
+gadds_download 12919: CRS change is required: True
+gadds_download 12919: Pixel resolution change is required: False
+gadds_download 12919: Dataset extent is contained within request polygon: False
+gadds_download 12919: resample_grid start elapsed time: 0:00:14
+gadds_download 12919: clipping=True, extent=POLYGON ((147.5947301779674 -34.68178264237262, 149.765810925957 -34.68178264237262, 149.765810925957 -32.79031259887355, 147.5947301779674 -32.79031259887355, 147.5947301779674 -34.68178264237262))
+gadds_download 12919: Opening GDAL dataset /mnt/efs/gadds/GADDSDownload/netcdf_cache/dapds00.nci.org.au/thredds/fileServer/iv65/Geoscience_Australia_Geophysics_Reference_Data_Collection/national_geophysical_compilations/Gravmap2019/Gravmap2019-grid-grv_cscba-IncludesAirborne.nc
+gadds_download 12919: Checking grid for multiple bands.
+gadds_download 12919: <osgeo.gdal.Dataset; proxy of <Swig Object of type 'GDALDatasetShadow *' at 0x7ffb0bb9bbd0> >
+gadds_download 12919: source_crs_wkt = GEOGCS["GEOCENTRIC DATUM of AUSTRALIA",DATUM["GDA94",SPHEROID["GRS80",6378137,298.257222101]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433],AXIS["Longitude",EAST],AXIS["Latitude",NORTH]]
+gadds_download 12919: source_geotransform = (107.99791666666667, 0.004166666666666667, 0.0, -7.997916666666669, 0.0, -0.004166666666666667)
+gadds_download 12919: source_pixels = (13441, 9601)
+gadds_download 12919: source_bounds:(107.99791666666667, -48.00208333333333, 164.00208333333333, -7.997916666666669)
+gadds_download 12919: extent_bounds:(147.59473017796742, -34.681782642372625, 149.76581092595703, -32.79031259887355)
+gadds_download 12919: source_crs_wkt:GEOGCS["GEOCENTRIC DATUM of AUSTRALIA",DATUM["GDA94",SPHEROID["GRS80",6378137,298.257222101]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433],AXIS["Longitude",EAST],AXIS["Latitude",NORTH]]
+gadds_download 12919: extent_crs_wkt:EPSG:4283
+gadds_download 12919: dest_crs_wkt:GDA94
+gadds_download 12919: reprojected_source_bounds = [107.99791666666667, -48.00208333333333, 164.00208333333333, -7.997916666666669]
+gadds_download 12919: reprojected_extent_bounds = [147.59473017796742, -34.681782642372625, 149.76581092595703, -32.79031259887355]
+gadds_download 12919: dest_bounds = [147.59473017796742, -34.681782642372625, 149.76581092595703, -32.79031259887355]
+gadds_download 12919: equivalent_pixel_sizes = [0.004166666666662877, 0.00416666666666643]
+gadds_download 12919: Using computed equivalent dest_resolution of 0.004 (0.0041666666666646535 rounded to nearest 0.0005)
+gadds_download 12919: integral_pixel_bounds = (36898, -8671, 37442, -8197)
+gadds_download 12919: Integral pixel aligned dest_pixels = (544, 474)
+gadds_download 12919: Integral pixel aligned dest_bounds = [147.592, -34.684, 149.768, -32.788000000000004]
+gadds_download 12919: source_lon_origin: 107.99791666666667
+gadds_download 12919: source_lat_origin: -7.997916666666669
+gadds_download 12919: dest_lon_origin: 147.592
+gadds_download 12919: dest_lat_origin: -32.788000000000004
+gadds_download 12919: lon_diff_divided_by_pixel_size = 9898.520833333336
+gadds_download 12919: lat_diff_divided_by_pixel_size = 6197.520833333334
+gadds_download 12919: dest_crs_wkt = GEOGCS["GDA94",DATUM["Geocentric_Datum_of_Australia_1994",SPHEROID["GRS 1980",6378137,298.257222101,AUTHORITY["EPSG","7019"]],TOWGS84[0,0,0,0,0,0,0],AUTHORITY["EPSG","6283"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AXIS["Latitude",NORTH],AXIS["Longitude",EAST],AUTHORITY["EPSG","4283"]]
+gadds_download 12919: dest_geotransform = (147.592, 0.004, 0, -32.788000000000004, 0, -0.004)
+gadds_download 12919: Opening destination GDAL dataset /mnt/efs/gadds/GADDSDownload/86ab1690-e204-11ee-890e-8301f339c236/Gravmap2019-grid-grv_cscba-IncludesAirborne.tif
+gadds_download 12919: Setting no data value to -999999.0 for band 1
+gadds_download 12919: Resampling /mnt/efs/gadds/GADDSDownload/netcdf_cache/dapds00.nci.org.au/thredds/fileServer/iv65/Geoscience_Australia_Geophysics_Reference_Data_Collection/national_geophysical_compilations/Gravmap2019/Gravmap2019-grid-grv_cscba-IncludesAirborne.nc to /mnt/efs/gadds/GADDSDownload/86ab1690-e204-11ee-890e-8301f339c236/Gravmap2019-grid-grv_cscba-IncludesAirborne.tif using "bilinear" algorithm
+gadds_download 12919: destination_dataset <osgeo.gdal.Dataset; proxy of <Swig Object of type 'GDALDatasetShadow *' at 0x7ffb0bb9bc00> >
+gadds_download 12919: Checking grid contains non NoData values in Band1..
+gadds_download 12919: resample_grid end elapsed time: 0:00:14
+gadds_download 12919: Closing source netCDF file
+gadds_download 12919: convert_dataset end elapsed time: 0:00:14
+gadds_download 12919: Setting status to Zipping
+urllib3.connectionpool 12919: Starting new HTTP connection (1): localhost:8000
+urllib3.connectionpool 12919: http://localhost:8000 "PUT /gaddsDownload/86ab1690-e204-11ee-890e-8301f339c236 HTTP/1.1" 202 16732
+gadds_download 12919: Adding file Gravmap2019-grid-grv_cscba-IncludesAirborne.tif to zip file
+gadds_download 12919: Removing temporary converted dataset file /mnt/efs/gadds/GADDSDownload/86ab1690-e204-11ee-890e-8301f339c236/Gravmap2019-grid-grv_cscba-IncludesAirborne.tif
+gadds_download 12919: Adding license text file to zip.
+gadds_download 12919: <zipfile.ZipFile filename='/mnt/efs/gadds/GADDSDownload/86ab1690-e204-11ee-890e-8301f339c236/86ab1690-e204-11ee-890e-8301f339c236.zip' mode='w'>
+gadds_download 12919: Adding file Gravmap2019-grid-grv_cscba-IncludesAirborne_license.txt to zip file
+gadds_download 12919: Adding file request.json to zip file
+gadds_download 12919: Adding file gadds_download.log to zip file
